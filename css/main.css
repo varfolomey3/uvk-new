@@ -1,6 +1,9 @@
-p {
-  font-size: 15px;
-  color: #9222be;
-  background: rgba(22, 25, 182, 0.445);
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic");
+p, a, li {
+  font-family: 'Comfortaa';
+}
+
+nav {
+  background: #B7C8D3;
 }
 /*# sourceMappingURL=main.css.map */

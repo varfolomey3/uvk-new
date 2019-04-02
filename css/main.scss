@@ -1,5 +1,14 @@
-p{
-    font-size: 15px;
-    color: rgb(146, 34, 190);
-    background: rgba(22, 25, 182, 0.445);
+$primary-color-dark:   #B7C8D3;
+$primary-color:        #CCDDE8;
+$primary-color-light:  #EDECE8;
+$accent-color:         #4089C0;
+$primary-text-color:   #212121;
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
+p,a,li, {font-family: 'Comfortaa';}
+nav {
+    background: $primary-color-dark;
+}
+
+a {
+    $primary-text-color
 }
