@@ -32,4 +32,14 @@ body .navbar .navbar-nav li.nav-item > a.nav-link:hover {
 body .navbar .navbar-nav li.active > a.nav-link {
   color: #006894;
 }
+
+body .navbar .navbar-nav li.nav-item > div.dropdown-menu {
+  background-color: #B7C8D3;
+  border: none;
+}
+
+body .navbar .navbar-nav div.dropdown-menu > a.dropdown-item:hover {
+  background-color: transparent;
+  color: #006894;
+}
 /*# sourceMappingURL=main.css.map */

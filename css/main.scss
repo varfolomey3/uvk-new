@@ -5,7 +5,7 @@ $primary-color-light:#008AC3;
 $primary-color:      #006894;
 $primary-color-dark :#08478C;
 $text-color:         #000000e6;
-$second-text-color:         #00000080;
+$second-text-color:  #00000080;
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
 p,span,li,a {font-family: 'Comfortaa';}
@@ -27,12 +27,22 @@ body {
                 color: $text-color;
                 &:hover {
                     color: $primary-color-light;
-            }
-
+                }
             }
             li.active > a.nav-link {
                 color: $primary-color;
             }
+            li.nav-item > div.dropdown-menu {
+                background-color: $body-color-dark;
+                border:none;
+            }
+            div.dropdown-menu > a.dropdown-item {
+                &:hover {
+                    background-color: transparent;
+                    color: $primary-color;
+                }
+            }
+
         }
     }
 }
