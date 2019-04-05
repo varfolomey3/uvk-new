@@ -9,7 +9,14 @@ $second-text-color: #00000080;
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
 
-p,span,li,a, h1,h2,h3,h4 {
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Comfortaa';
 }
 
@@ -80,20 +87,79 @@ body {
 
         }
     }
-    .container > .row {
+
+    .container>.row {
         background-color: $body-color;
         padding: 0;
         margin: 0;
-        .col-sm-8 {
+
+        .col-md-7 {
             padding: 0;
             margin: 0;
-            .carousel-item img {
-                height: 550px;
+
+            @media (max-width: 576px) {
+                .carousel-item img {
+                    height: 300px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .carousel-item img {
+                    height: 100%;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .carousel-item img {
+                    height: 550px;
+                }
+            }
+
+            @media (min-width: 1300px) {
+                .carousel-item img {
+                    height: 550px;
+                }
+            }
+
+            @media (min-width: 1900px) {
+                .carousel-item img {
+                    height: 550px;
+                }
             }
         }
-        .col-sm-4 {
+
+        .col-sm-5 {
             padding: 0;
             margin: 0;
+
+            .p-2 {
+                margin: 1rem;
+                background-color: $body-color-dark;
+
+                .date {
+                    color: $primary-color-dark;
+                    padding: .2rem 1rem;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+
+                .d-flex {
+                    padding: 0.35rem;
+
+                    .info {
+                        padding: .5rem;
+                    }
+
+                    .info>a img {
+                        height: 100px;
+                    }
+
+                    .info>a {
+                        color: $primary-color-dark;
+                    }
+                }
+            }
         }
+
     }
 }

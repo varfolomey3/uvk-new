@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic");
-p, span, li, a, h1, h2, h3, h4 {
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Comfortaa';
 }
 
@@ -73,17 +80,71 @@ body .container > .row {
   margin: 0;
 }
 
-body .container > .row .col-sm-8 {
+body .container > .row .col-md-7 {
   padding: 0;
   margin: 0;
 }
 
-body .container > .row .col-sm-8 .carousel-item img {
-  height: 550px;
+@media (max-width: 576px) {
+  body .container > .row .col-md-7 .carousel-item img {
+    height: 300px;
+  }
 }
 
-body .container > .row .col-sm-4 {
+@media (min-width: 768px) {
+  body .container > .row .col-md-7 .carousel-item img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  body .container > .row .col-md-7 .carousel-item img {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1300px) {
+  body .container > .row .col-md-7 .carousel-item img {
+    height: 550px;
+  }
+}
+
+@media (min-width: 1900px) {
+  body .container > .row .col-md-7 .carousel-item img {
+    height: 550px;
+  }
+}
+
+body .container > .row .col-sm-5 {
   padding: 0;
   margin: 0;
+}
+
+body .container > .row .col-sm-5 .p-2 {
+  margin: 1rem;
+  background-color: #B7C8D3;
+}
+
+body .container > .row .col-sm-5 .p-2 .date {
+  color: #08478C;
+  padding: .2rem 1rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+body .container > .row .col-sm-5 .p-2 .d-flex {
+  padding: 0.35rem;
+}
+
+body .container > .row .col-sm-5 .p-2 .d-flex .info {
+  padding: .5rem;
+}
+
+body .container > .row .col-sm-5 .p-2 .d-flex .info > a img {
+  height: 100px;
+}
+
+body .container > .row .col-sm-5 .p-2 .d-flex .info > a {
+  color: #08478C;
 }
 /*# sourceMappingURL=main.css.map */
