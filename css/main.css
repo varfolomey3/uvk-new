@@ -99,7 +99,7 @@ body .container > .row .col-md-7 {
 
 @media (min-width: 1000px) {
   body .container > .row .col-md-7 .carousel-item img {
-    height: 550px;
+    height: 300px;
   }
 }
 
