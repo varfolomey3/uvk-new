@@ -183,6 +183,15 @@ body {
 
             .card-body {
                 background-color: $body-color-dark;
+                .col-sm-6 > img {
+                    height: 350px;
+                }
+                .col-sm-4 > img {
+                    height: 250px;
+                }
+                .col-sm-3 > img {
+                    height: 150px;
+                }
             }
         }
     }
@@ -219,10 +228,10 @@ body {
 
                 .col-sm-6>img {
                     height: 30px;
-                    margin: 0 1.7rem;
+                    padding: 0 2rem;
                 }
 
-                img.opzht {
+                opzht {
                     height: 110px;
                 }
             }

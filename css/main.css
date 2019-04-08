@@ -167,6 +167,18 @@ body #accordianId .card .card-body {
   background-color: #B7C8D3;
 }
 
+body #accordianId .card .card-body .col-sm-6 > img {
+  height: 350px;
+}
+
+body #accordianId .card .card-body .col-sm-4 > img {
+  height: 250px;
+}
+
+body #accordianId .card .card-body .col-sm-3 > img {
+  height: 150px;
+}
+
 body #carouselId {
   background-color: #CCDDE8;
 }
@@ -197,10 +209,10 @@ body footer .container .row .col-sm-6 > p {
 
 body footer .container .row .col-sm-6 > img {
   height: 30px;
-  margin: 0 1.7rem;
+  padding: 0 2rem;
 }
 
-body footer .container .row img.opzht {
+body footer .container .row opzht {
   height: 110px;
 }
 /*# sourceMappingURL=main.css.map */
