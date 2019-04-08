@@ -179,11 +179,28 @@ body #carouselId .row {
   padding: 1.2rem;
 }
 
+body #carouselId .row .col-sm-4 {
+  padding: rem;
+}
+
+body #carouselId .col-sm-4 img {
+  height: 60px;
+}
+
 body footer .container .row {
   background-color: #B7C8D3;
 }
 
 body footer .container .row .col-sm-6 > p {
   font-size: 12px;
+}
+
+body footer .container .row .col-sm-6 > img {
+  height: 30px;
+  margin: 0 1.7rem;
+}
+
+body footer .container .row img.opzht {
+  height: 110px;
 }
 /*# sourceMappingURL=main.css.map */

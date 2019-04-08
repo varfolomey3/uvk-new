@@ -196,6 +196,14 @@ body {
 
         .row {
             padding: 1.2rem;
+
+            .col-sm-4 {
+                padding: rem;
+            }
+        }
+
+        .col-sm-4 img {
+            height: 60px;
         }
 
     }
@@ -207,6 +215,15 @@ body {
 
                 .col-sm-6>p {
                     font-size: 12px;
+                }
+
+                .col-sm-6>img {
+                    height: 30px;
+                    margin: 0 1.7rem;
+                }
+
+                img.opzht {
+                    height: 110px;
                 }
             }
         }
