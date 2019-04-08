@@ -27,25 +27,18 @@ body .container > nav {
   background-color: #B7C8D3;
 }
 
-body .container > nav .email > a {
-  padding: .35rem;
-  margin: 0 1rem;
-  border: 1px solid #006894;
-  border-radius: .3rem;
-}
-
-body .container > nav .email > a:hover {
-  border-color: #EDECE8;
-  color: #EDECE8;
-}
-
 body .container > nav .email > a i.fas {
   font-size: 15px;
+  border: 1px solid #006894;
+  border-radius: .3rem;
+  padding: .35rem;
+  margin: 0 1rem;
   color: #006894;
 }
 
 body .container > nav .email > a i.fas:hover {
-  color: #EDECE8;
+  color: #08478C;
+  border-color: #08478C;
 }
 
 body .container > nav .number-phone {
@@ -76,7 +69,7 @@ body .container > nav .navbar-nav div.dropdown-menu > a.dropdown-item:hover {
 
 body .container > .row {
   background-color: #CCDDE8;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -99,7 +92,7 @@ body .container > .row .col-md-7 {
 
 @media (min-width: 1000px) {
   body .container > .row .col-md-7 .carousel-item img {
-    height: 550px;
+    height: 580px;
   }
 }
 
@@ -120,6 +113,11 @@ body .container > .row .col-sm-5 {
   margin: 0;
 }
 
+body .container > .row .col-sm-5 h5 {
+  color: #08478C;
+  margin: 1rem 0 0 1rem;
+}
+
 body .container > .row .col-sm-5 .p-2 {
   margin: 1rem;
   background-color: #B7C8D3;
@@ -128,8 +126,8 @@ body .container > .row .col-sm-5 .p-2 {
 body .container > .row .col-sm-5 .p-2 .date {
   color: #08478C;
   padding: .2rem 1rem;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 body .container > .row .col-sm-5 .p-2 .d-flex {
@@ -146,5 +144,46 @@ body .container > .row .col-sm-5 .p-2 .d-flex .info > a img {
 
 body .container > .row .col-sm-5 .p-2 .d-flex .info > a {
   color: #08478C;
+}
+
+body #accordianId .card {
+  background-color: #CCDDE8;
+}
+
+body #accordianId .card .card-header {
+  background-color: #CCDDE8;
+}
+
+body #accordianId .card .card-header h5.mb-0 > a {
+  color: #006894;
+}
+
+body #accordianId .card .card-header h5.mb-0 > a:hover {
+  text-decoration: none;
+  color: #08478C;
+}
+
+body #accordianId .card .card-body {
+  background-color: #B7C8D3;
+}
+
+body #carouselId {
+  background-color: #CCDDE8;
+}
+
+body #carouselId h4 {
+  color: #08478C;
+}
+
+body #carouselId .row {
+  padding: 1.2rem;
+}
+
+body footer .container .row {
+  background-color: #B7C8D3;
+}
+
+body footer .container .row .col-sm-6 > p {
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */

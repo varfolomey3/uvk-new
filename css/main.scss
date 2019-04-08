@@ -36,22 +36,17 @@ body {
         background-color: $body-color-dark;
 
         .email>a {
-            padding: .35rem;
-            margin: 0 1rem;
-            border: 1px solid $primary-color;
-            border-radius: .3rem;
-
-            &:hover {
-                border-color: $body-color-light;
-                color: $body-color-light;
-            }
-
             i.fas {
                 font-size: 15px;
+                border: 1px solid $primary-color;
+                border-radius: .3rem;
+                padding: .35rem;
+                margin: 0 1rem;
                 color: $primary-color;
 
                 &:hover {
-                    color: $body-color-light;
+                    color: $primary-color-dark;
+                    border-color: $primary-color-dark;
                 }
             }
         }
@@ -90,7 +85,7 @@ body {
 
     .container>.row {
         background-color: $body-color;
-        padding: 0;
+        padding: 1rem;
         margin: 0;
 
         .col-md-7 {
@@ -111,7 +106,7 @@ body {
 
             @media (min-width: 1000px) {
                 .carousel-item img {
-                    height: 550px;
+                    height: 580px;
                 }
             }
 
@@ -132,6 +127,11 @@ body {
             padding: 0;
             margin: 0;
 
+            h5 {
+                color: $primary-color-dark;
+                margin: 1rem 0 0 1rem;
+            }
+
             .p-2 {
                 margin: 1rem;
                 background-color: $body-color-dark;
@@ -139,8 +139,8 @@ body {
                 .date {
                     color: $primary-color-dark;
                     padding: .2rem 1rem;
-                    font-size: 15px;
-                    font-weight: 500;
+                    font-size: 14px;
+                    font-weight: 700;
                 }
 
                 .d-flex {
@@ -161,5 +161,54 @@ body {
             }
         }
 
+    }
+
+    #accordianId {
+        .card {
+            background-color: $body-color;
+
+            .card-header {
+                background-color: $body-color;
+
+                h5.mb-0>a {
+                    color: $primary-color;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $primary-color-dark;
+                    }
+                }
+
+            }
+
+            .card-body {
+                background-color: $body-color-dark;
+            }
+        }
+    }
+
+    #carouselId {
+        background-color: $body-color;
+
+        h4 {
+            color: $primary-color-dark;
+        }
+
+        .row {
+            padding: 1.2rem;
+        }
+
+    }
+
+    footer {
+        .container {
+            .row {
+                background-color: $body-color-dark;
+
+                .col-sm-6>p {
+                    font-size: 12px;
+                }
+            }
+        }
     }
 }
