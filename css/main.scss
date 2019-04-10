@@ -187,94 +187,129 @@ body {
                 .row {
 
                     .col-sm-4 {
-                        .container > p {
+                        .container>p {
                             background-color: $body-color;
                             padding: 1.5rem;
                         }
+
                         .container-fluid {
                             padding: 2.3rem 0;
-                            img {
-                            height: 275px;
-                        }
-                    }
 
-                        button.btn {
-                            color: $primary-color-dark;
-                            background-color: $body-color;
-                            margin: 1.5rem 0;
-                            padding: 1rem; 
-                            border: 2px solid $primary-color;
-                        }
-
-                        .modal-content {
-                            padding: 0;
-                            margin: 0;
-
-                            .modal-body {
-                                padding: 0;
-                                margin: 0;
-                                .container {
-                                    padding: 0 8.2rem;
-                                    margin: 0;
-
-                                    img {
-                                        width: 580px;
-                                    }
-
+                            @media (min-width: 319px) {
+                                .img-rgv {
+                                    height: 210px;
                                 }
                             }
-                        }
-                      ul.list-group > li  {
-                            background-color: $body-color;
-                            img {
-                                height: 23px;
+                            @media (min-width: 374px) {
+                                .img-rgv {
+                                    height: 250px;
+                                }
                             }
-                        }   
+                            @media (min-width: 767px) {
+                                .img-rgv {
+                                    height: 170px;
+                                }
+                            }
+                            @media (min-width: 1024px) {
+                                .img-rgv {
+                                    height: 235px;
+                                }
+                            }
+                            @media (min-width: 1240px) {
+                                .img-rgv {
+                                    height: 285px;
+                                }
+                            }
+                            @media (min-width: 1440px) {
+                                .img-rgv {
+                                    height: 290px;
+                                }
+                            }
 
+
+
+                        }
+                            button.btn {
+                                color: $primary-color-dark;
+                                background-color: $body-color;
+                                margin: 1.5rem 0;
+                                padding: 1rem;
+                                border: 2px solid $primary-color;
+                            }
+
+                            .modal-content {
+                                padding: 0;
+                                margin: 0;
+
+                                .modal-body {
+                                    padding: 0;
+                                    margin: 0;
+
+                                    .container {
+                                        padding: 0 8.2rem;
+                                        margin: 0;
+
+                                        img {
+                                            width: 580px;
+                                        }
+
+                                    }
+                                }
+                            }
+
+                            ul.list-group>li {
+                                background-color: $body-color;
+
+                                img {
+                                    height: 23px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        #carouselId {
+            background-color: $body-color;
+
+            h4 {
+                color: $primary-color-dark;
+            }
+
+            .row {
+                padding: 1.2rem;
+
+                .col-sm-4 {
+                    padding: 1rem;
+
+                    img {
+                        height: 50px;
+                    }
+                }
+            }
+
+        }
+
+        footer {
+            .container {
+                .row {
+                    background-color: $body-color-dark;
+
+                    .col-sm-6>p {
+                        font-size: 12px;
+                    }
+
+                    .col-sm-6>img {
+                        height: 30px;
+                        padding: 0 2rem;
+                    }
+
+                    img.opzht {
+                        height: 80px;
                     }
                 }
             }
         }
     }
-
-    #carouselId {
-        background-color: $body-color;
-
-        h4 {
-            color: $primary-color-dark;
-        }
-
-        .row {
-            padding: 1.2rem;
-
-            .col-sm-4 {
-                padding: 1rem;
-                img{
-                    height: 50px;
-                }
-            }
-        }
-
-    }
-
-    footer {
-        .container {
-            .row {
-                background-color: $body-color-dark;
-
-                .col-sm-6>p {
-                    font-size: 12px;
-                }
-
-                .col-sm-6>img {
-                    height: 30px;
-                    padding: 0 2rem;
-                }
-
-                img.opzht {
-                    height: 80px;
-                }
-            }
-        }
-    }
-}

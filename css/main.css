@@ -176,8 +176,40 @@ body #accordion .card .card-body .row .col-sm-4 .container-fluid {
   padding: 2.3rem 0;
 }
 
-body #accordion .card .card-body .row .col-sm-4 .container-fluid img {
-  height: 275px;
+@media (min-width: 319px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 210px;
+  }
+}
+
+@media (min-width: 374px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 250px;
+  }
+}
+
+@media (min-width: 767px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 170px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 235px;
+  }
+}
+
+@media (min-width: 1240px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 285px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
+    height: 290px;
+  }
 }
 
 body #accordion .card .card-body .row .col-sm-4 button.btn {
