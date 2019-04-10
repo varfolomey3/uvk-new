@@ -148,6 +148,7 @@ body .container > .row .col-sm-5 .p-2 .d-flex .info > a {
 
 body #accordion .card {
   background-color: #CCDDE8;
+  border: none;
 }
 
 body #accordion .card .card-header {
@@ -178,19 +179,19 @@ body #accordion .card .card-body .row .col-sm-4 .container-fluid {
 
 @media (min-width: 319px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 200px;
+    height: 205px;
   }
 }
 
 @media (min-width: 374px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 230px;
+    height: 235px;
   }
 }
 
 @media (min-width: 767px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 160px;
+    height: 165x;
   }
 }
 
