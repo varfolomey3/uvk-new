@@ -85,7 +85,7 @@ body {
 
     .container>.row {
         background-color: $body-color;
-        padding: 1rem;
+        padding: 0;
         margin: 0;
 
         .col-md-7 {
@@ -163,14 +163,14 @@ body {
 
     }
 
-    #accordianId {
+    #accordion {
         .card {
             background-color: $body-color;
 
             .card-header {
                 background-color: $body-color;
 
-                h5.mb-0>a {
+                a>h5.mb-0 {
                     color: $primary-color;
 
                     &:hover {
@@ -183,14 +183,55 @@ body {
 
             .card-body {
                 background-color: $body-color-dark;
-                .col-sm-6 > img {
-                    height: 350px;
-                }
-                .col-sm-4 > img {
-                    height: 250px;
-                }
-                .col-sm-3 > img {
-                    height: 150px;
+
+                .row {
+
+                    .col-sm-4 {
+                        .container > p {
+                            background-color: $body-color;
+                            padding: 1.5rem;
+                        }
+                        .container-fluid {
+                            padding: 2.3rem 0;
+                            img {
+                            height: 290px;
+                        }
+                    }
+
+                        button.btn {
+                            color: $primary-color-dark;
+                            background-color: $body-color;
+                            margin: 1.5rem 0;
+                            padding: 1rem; 
+                            border: 2px solid $primary-color;
+                        }
+
+                        .modal-content {
+                            padding: 0;
+                            margin: 0;
+
+                            .modal-body {
+                                padding: 0;
+                                margin: 0;
+                                .container {
+                                    padding: 0 8.2rem;
+                                    margin: 0;
+
+                                    img {
+                                        width: 580px;
+                                    }
+
+                                }
+                            }
+                        }
+                      ul.list-group > li  {
+                            background-color: $body-color;
+                            img {
+                                height: 23px;
+                            }
+                        }   
+
+                    }
                 }
             }
         }
@@ -207,12 +248,11 @@ body {
             padding: 1.2rem;
 
             .col-sm-4 {
-                padding: rem;
+                padding: 1rem;
+                img{
+                    height: 50px;
+                }
             }
-        }
-
-        .col-sm-4 img {
-            height: 60px;
         }
 
     }
@@ -232,7 +272,7 @@ body {
                 }
 
                 img.opzht {
-                    height: 90px;
+                    height: 80px;
                 }
             }
         }

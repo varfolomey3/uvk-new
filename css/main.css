@@ -69,7 +69,7 @@ body .container > nav .navbar-nav div.dropdown-menu > a.dropdown-item:hover {
 
 body .container > .row {
   background-color: #CCDDE8;
-  padding: 1rem;
+  padding: 0;
   margin: 0;
 }
 
@@ -146,37 +146,73 @@ body .container > .row .col-sm-5 .p-2 .d-flex .info > a {
   color: #08478C;
 }
 
-body #accordianId .card {
+body #accordion .card {
   background-color: #CCDDE8;
 }
 
-body #accordianId .card .card-header {
+body #accordion .card .card-header {
   background-color: #CCDDE8;
 }
 
-body #accordianId .card .card-header h5.mb-0 > a {
+body #accordion .card .card-header a > h5.mb-0 {
   color: #006894;
 }
 
-body #accordianId .card .card-header h5.mb-0 > a:hover {
+body #accordion .card .card-header a > h5.mb-0:hover {
   text-decoration: none;
   color: #08478C;
 }
 
-body #accordianId .card .card-body {
+body #accordion .card .card-body {
   background-color: #B7C8D3;
 }
 
-body #accordianId .card .card-body .col-sm-6 > img {
-  height: 350px;
+body #accordion .card .card-body .row .col-sm-4 .container > p {
+  background-color: #CCDDE8;
+  padding: 1.5rem;
 }
 
-body #accordianId .card .card-body .col-sm-4 > img {
-  height: 250px;
+body #accordion .card .card-body .row .col-sm-4 .container-fluid {
+  padding: 2.3rem 0;
 }
 
-body #accordianId .card .card-body .col-sm-3 > img {
-  height: 150px;
+body #accordion .card .card-body .row .col-sm-4 .container-fluid img {
+  height: 290px;
+}
+
+body #accordion .card .card-body .row .col-sm-4 button.btn {
+  color: #08478C;
+  background-color: #CCDDE8;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 2px solid #006894;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .modal-content {
+  padding: 0;
+  margin: 0;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .modal-content .modal-body {
+  padding: 0;
+  margin: 0;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .modal-content .modal-body .container {
+  padding: 0 8.2rem;
+  margin: 0;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .modal-content .modal-body .container img {
+  width: 580px;
+}
+
+body #accordion .card .card-body .row .col-sm-4 ul.list-group > li {
+  background-color: #CCDDE8;
+}
+
+body #accordion .card .card-body .row .col-sm-4 ul.list-group > li img {
+  height: 23px;
 }
 
 body #carouselId {
@@ -192,11 +228,11 @@ body #carouselId .row {
 }
 
 body #carouselId .row .col-sm-4 {
-  padding: rem;
+  padding: 1rem;
 }
 
-body #carouselId .col-sm-4 img {
-  height: 60px;
+body #carouselId .row .col-sm-4 img {
+  height: 50px;
 }
 
 body footer .container .row {
@@ -213,6 +249,6 @@ body footer .container .row .col-sm-6 > img {
 }
 
 body footer .container .row img.opzht {
-  height: 90px;
+  height: 80px;
 }
 /*# sourceMappingURL=main.css.map */
