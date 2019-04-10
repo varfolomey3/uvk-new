@@ -178,19 +178,19 @@ body #accordion .card .card-body .row .col-sm-4 .container-fluid {
 
 @media (min-width: 319px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 210px;
+    height: 200px;
   }
 }
 
 @media (min-width: 374px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 250px;
+    height: 230px;
   }
 }
 
 @media (min-width: 767px) {
   body #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 170px;
+    height: 160px;
   }
 }
 
