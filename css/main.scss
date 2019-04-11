@@ -201,26 +201,31 @@ body {
                                     height: 205px;
                                 }
                             }
+
                             @media (min-width: 374px) {
                                 .img-rgv {
                                     height: 235px;
                                 }
                             }
+
                             @media (min-width: 767px) {
                                 .img-rgv {
                                     height: 165x;
                                 }
                             }
+
                             @media (min-width: 1024px) {
                                 .img-rgv {
                                     height: 235px;
                                 }
                             }
+
                             @media (min-width: 1240px) {
                                 .img-rgv {
                                     height: 285px;
                                 }
                             }
+
                             @media (min-width: 1440px) {
                                 .img-rgv {
                                     height: 290px;
@@ -230,87 +235,121 @@ body {
 
 
                         }
-                            button.btn {
-                                color: $primary-color-dark;
-                                background-color: $body-color;
-                                margin: 1.5rem 0;
-                                padding: 1rem;
-                                border: 2px solid $primary-color;
-                            }
 
-                            .modal-content {
+                        button.btn {
+                            color: $primary-color-dark;
+                            background-color: $body-color;
+                            margin: 1.5rem 0;
+                            padding: 1rem;
+                            border: 2px solid $primary-color;
+                        }
+
+                        .modal-content {
+                            padding: 0;
+                            margin: 0;
+
+                            .modal-body {
                                 padding: 0;
                                 margin: 0;
 
-                                .modal-body {
-                                    padding: 0;
+                                .container {
+                                    padding: 0 8.2rem;
                                     margin: 0;
 
-                                    .container {
-                                        padding: 0 8.2rem;
-                                        margin: 0;
-
-                                        img {
-                                            width: 580px;
-                                        }
-
+                                    img {
+                                        width: 580px;
                                     }
+
                                 }
                             }
-
-                            ul.list-group>li {
-                                background-color: $body-color;
-
-                                img {
-                                    height: 23px;
-                                }
-                            }
-
                         }
-                    }
-                }
-            }
-        }
 
-        #carouselId {
-            background-color: $body-color;
+                        ul.list-group>li {
+                            background-color: $body-color;
 
-            h4 {
-                color: $primary-color-dark;
-            }
+                            img {
+                                height: 23px;
+                            }
+                        }
 
-            .row {
-                padding: 1.2rem;
-
-                .col-sm-4 {
-                    padding: 1rem;
-
-                    img {
-                        height: 50px;
-                    }
-                }
-            }
-
-        }
-
-        footer {
-            .container {
-                .row {
-                    background-color: $body-color-dark;
-
-                    .col-sm-6>p {
-                        font-size: 12px;
-                    }
-
-                    .col-sm-6>img {
-                        height: 30px;
-                        padding: 0 2rem;
-                    }
-
-                    img.opzht {
-                        height: 80px;
                     }
                 }
             }
         }
     }
+
+    #carouselId {
+        background-color: $body-color;
+
+        h4 {
+            color: $primary-color-dark;
+        }
+
+        .row {
+            padding: 1.2rem;
+
+            .col-sm-4 {
+                padding: 1rem;
+
+                img {
+                    height: 50px;
+                }
+            }
+        }
+
+    }
+
+    table.table {
+        margin-bottom: 0;
+            tr {
+                background-color: $body-color-dark;
+                font-size: 16px;
+
+                img {
+                    width: 130px;
+                }
+        }
+    }
+    .container {
+        background-color: $body-color;
+        h5 {
+            padding: 0.5rem 1.5rem;
+            color: $primary-color-dark;
+        }
+        .col-sm-6 > .container {
+            background-color: $body-color-dark;
+            padding: 1rem;
+            border-radius: 0.35rem;
+            p {
+                font-size: 13px;
+                span {
+                    color: $primary-color-dark;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    footer {
+
+        .container {
+            padding: 1rem 0 0 0;
+            .row {
+                background-color: $body-color-dark;
+                padding: 1rem 0;
+                .col-sm-6>p {
+                    font-size: 12px;
+                }
+
+                .col-sm-6>img {
+                    height: 30px;
+                    padding: 0 2rem;
+                }
+
+                img.opzht {
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
