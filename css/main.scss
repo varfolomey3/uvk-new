@@ -330,7 +330,7 @@ body {
                 }
             } 
         }
-        a {
+        .col-sm-6 > a {
             background-color: $body-color-dark;
             margin: 1.5rem 0;
             &:hover {

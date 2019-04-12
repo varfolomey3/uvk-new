@@ -307,16 +307,16 @@ body .container .col-sm-6 > .container p span {
   font-weight: 700;
 }
 
-body .container a {
+body .container .col-sm-6 > a {
   background-color: #B7C8D3;
   margin: 1.5rem 0;
 }
 
-body .container a:hover {
+body .container .col-sm-6 > a:hover {
   background-color: #EDECE8;
 }
 
-body .container a i {
+body .container .col-sm-6 > a i {
   padding: .5rem;
   font-size: 20px;
   color: #08478C;
