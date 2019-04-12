@@ -74,7 +74,7 @@ body .container > .row {
 }
 
 body .container > .row .col-md-7 {
-  padding: 0;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -110,17 +110,19 @@ body .container > .row .col-md-7 {
 
 body .container > .row .col-sm-5 {
   padding: 0;
-  margin: 0;
+  margin: 1rem 0;
+  background-color: #B7C8D3;
 }
 
 body .container > .row .col-sm-5 h5 {
   color: #08478C;
   margin: 1rem 0 0 1rem;
+  padding: 0;
 }
 
 body .container > .row .col-sm-5 .p-2 {
-  margin: 1rem;
-  background-color: #B7C8D3;
+  margin: 0.8rem;
+  background-color: #CCDDE8;
 }
 
 body .container > .row .col-sm-5 .p-2 .date {

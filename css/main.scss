@@ -89,7 +89,7 @@ body {
         margin: 0;
 
         .col-md-7 {
-            padding: 0;
+            padding: 1rem;
             margin: 0;
 
             @media (min-width: 320px) {
@@ -125,16 +125,18 @@ body {
 
         .col-sm-5 {
             padding: 0;
-            margin: 0;
+            margin: 1rem 0;
+            background-color: $body-color-dark;
 
             h5 {
                 color: $primary-color-dark;
                 margin: 1rem 0 0 1rem;
+                padding: 0;
             }
 
             .p-2 {
-                margin: 1rem;
-                background-color: $body-color-dark;
+                margin: 0.8rem;
+                background-color: $body-color;
 
                 .date {
                     color: $primary-color-dark;
