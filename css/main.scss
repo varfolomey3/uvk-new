@@ -31,65 +31,68 @@ body {
     margin: 0;
     font-size: 16px;
     background: $body-color;
+
     .loaderArea {
-        background: linear-gradient(90deg, $body-color-dark 10%, $body-color 90%);
+        background: linear-gradient(90deg, $primary-color-dark 10%, $primary-color 90%);
         overflow: hidden;
         position: fixed;
         left: 0;
         top: 0;
-        right:0;
-        bottom:0;
+        right: 0;
+        bottom: 0;
         z-index: 100000;
+
         .loader {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  left: 50%;
-  margin-left: -20px;
-  top: 50%;
-  margin-top: -20px;
-}
- 
-.loader:before,
-.loader:after {
-  content: "";
-  height: 40px;
-  width: 40px;
-  border: 8px solid rgba(255,255,255,.5);
-  border-radius: 10px;
-  position: absolute;
-  top: 0;
-}
- 
-.loader:before {
-  animation: animate 2s infinite linear;
-}
- 
-@keyframes animate {
-  0% {
-    transform: rotate(0) skew(0);
-  }
-   
-  100% {
-    transform: rotate(180deg) skew(360deg);
-  }
-}
- 
- 
-.loader:after {
-  animation: animate2 2s infinite linear;
-}
- 
-@keyframes animate2 {
-  0% {
-    transform: rotate(0) skew(0);
-  }
-   
-  100% {
-    transform: rotate(-180deg) skew(-360deg);
-  }
-}
-      }
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            left: 50%;
+            margin-left: -20px;
+            top: 50%;
+            margin-top: -20px;
+        }
+
+        .loader:before,
+        .loader:after {
+            content: "";
+            height: 40px;
+            width: 40px;
+            border: 8px solid rgba(255, 255, 255, .5);
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+        }
+
+        .loader:before {
+            animation: animate 2s infinite linear;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: rotate(0) skew(0);
+            }
+
+            100% {
+                transform: rotate(180deg) skew(360deg);
+            }
+        }
+
+
+        .loader:after {
+            animation: animate2 2s infinite linear;
+        }
+
+        @keyframes animate2 {
+            0% {
+                transform: rotate(0) skew(0);
+            }
+
+            100% {
+                transform: rotate(-180deg) skew(-360deg);
+            }
+        }
+    }
+
     .container>nav {
         background-color: $body-color-dark;
 
@@ -251,12 +254,13 @@ body {
                     .col-sm-4 {
                         .container {
                             padding: 1rem;
-                               p {                          
-                            background-color: $body-color;
-                            padding: .1rem;
+
+                            p {
+                                background-color: $body-color;
+                                padding: .1rem;
+                            }
                         }
-                    }
-                    
+
 
                         .container-fluid {
                             padding: 2.3rem 0;
@@ -367,39 +371,48 @@ body {
 
     table.table {
         margin-bottom: 0;
-            tr {
-                background-color: $body-color-dark;
-                font-size: 16px;
 
-                img {
-                    width: 130px;
-                }
+        tr {
+            background-color: $body-color-dark;
+            font-size: 16px;
+
+            img {
+                width: 130px;
+            }
         }
     }
+
     .container {
         background-color: $body-color;
+
         h5 {
             padding: 0.5rem 1.5rem;
             color: $primary-color-dark;
         }
-        .col-sm-6 > .container {
+
+        .col-sm-6>.container {
             background-color: $body-color-dark;
             padding: 1rem;
             border-radius: 0.35rem;
+
             p {
                 font-size: 13px;
+
                 span {
                     color: $primary-color-dark;
                     font-weight: 700;
                 }
-            } 
+            }
         }
-        .col-sm-6 > a {
+
+        .col-sm-6>a {
             background-color: $body-color-dark;
             margin: 1.5rem 0;
+
             &:hover {
                 background-color: $body-color-light;
             }
+
             i {
                 padding: .5rem;
                 font-size: 20px;
@@ -412,9 +425,11 @@ body {
 
         .container {
             padding: 1rem 0 0 0;
+
             .row {
                 background-color: $body-color-dark;
                 padding: 1rem 0;
+
                 .col-sm-6>p {
                     font-size: 12px;
                 }

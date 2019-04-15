@@ -24,8 +24,8 @@ body {
 }
 
 body .loaderArea {
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #B7C8D3), color-stop(90%, #CCDDE8));
-  background: linear-gradient(90deg, #B7C8D3 10%, #CCDDE8 90%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #08478C), color-stop(90%, #006894));
+  background: linear-gradient(90deg, #08478C 10%, #006894 90%);
   overflow: hidden;
   position: fixed;
   left: 0;
