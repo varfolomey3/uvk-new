@@ -59,7 +59,8 @@ body .container > nav .navbar-nav li.active > a.nav-link {
 
 body .container > nav .navbar-nav li.nav-item > div.dropdown-menu {
   background-color: #B7C8D3;
-  border: none;
+  border: 4px solid #CCDDE8;
+  margin-top: .5em;
 }
 
 body .container > nav .navbar-nav div.dropdown-menu > a.dropdown-item:hover {
