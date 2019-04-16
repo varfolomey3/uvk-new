@@ -154,9 +154,36 @@ body {
             padding: 1rem;
             margin: 0;
 
-            img {
-                width: 100%;
+            @media (min-width: 320px) {
+                .carousel-item img {
+                    height: 300px;
+                }
             }
+
+            @media (min-width: 900px) {
+                .carousel-item img {
+                    height: 35px;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .carousel-item img {
+                    height: 580px;
+                }
+            }
+
+            @media (min-width: 1300px) {
+                .carousel-item img {
+                    height: 650px;
+                }
+            }
+
+            @media (min-width: 1900px) {
+                .carousel-item img {
+                    height: 850px;
+                }
+            }
+        }
 
         .col-sm-5 {
             padding: 0;
