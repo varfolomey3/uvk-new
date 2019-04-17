@@ -423,6 +423,23 @@ body .container .col-sm-6 > a i {
   color: #08478C;
 }
 
+body .about {
+  padding: 1rem;
+}
+
+body .about .col-sm-6 {
+  background-color: #B7C8D3;
+}
+
+body .about .col-sm-6 h5 {
+  color: #006894;
+}
+
+body .about .col-sm-6 img {
+  width: 600px;
+  padding: 2rem;
+}
+
 body footer .container {
   padding: 1rem 0 0 0;
 }
