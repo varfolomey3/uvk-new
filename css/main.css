@@ -267,12 +267,21 @@ body #accordion .card .card-body {
 }
 
 body #accordion .card .card-body .row .col-sm-4 .container {
-  padding: 1rem;
+  padding: 1.5rem;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .container h6 {
+  color: #08478C;
+  font-size: 16px;
+}
+
+body #accordion .card .card-body .row .col-sm-4 .container li {
+  border: none;
 }
 
 body #accordion .card .card-body .row .col-sm-4 .container p {
   background-color: #CCDDE8;
-  padding: .1rem;
+  padding: .15rem;
 }
 
 body #accordion .card .card-body .row .col-sm-4 .container-fluid {
@@ -373,15 +382,31 @@ body #carouselId .row .col-sm-4 img {
 
 body table.table {
   margin-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body table.table tr {
-  background-color: #B7C8D3;
-  font-size: 16px;
+@media (max-width: 500px) {
+  body table.table tr {
+    background-color: #B7C8D3;
+    font-size: 9px;
+    padding: 0;
+    margin: 0;
+  }
+  body table.table tr img {
+    width: 70px;
+  }
 }
 
-body table.table tr img {
-  width: 130px;
+@media (min-width: 1200px) {
+  body table.table tr {
+    background-color: #B7C8D3;
+    padding: 1rem;
+    font-size: 16px;
+  }
+  body table.table tr img {
+    width: 150px;
+  }
 }
 
 body .container {
@@ -459,6 +484,6 @@ body footer .container .row .col-sm-6 > img {
 }
 
 body footer .container .row img.opzht {
-  height: 80px;
+  height: 70px;
 }
 /*# sourceMappingURL=main.css.map */
