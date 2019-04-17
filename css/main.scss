@@ -31,6 +31,7 @@ body {
     margin: 0;
     font-size: 16px;
     background: $body-color;
+
     .loaderArea {
         background: linear-gradient(90deg, $primary-color-dark 10%, $primary-color 90%);
         overflow: hidden;
@@ -116,7 +117,15 @@ body {
             color: $primary-color;
         }
 
+        .navbar-brand {
+            padding:0 .5rem;
+            img {
+                height: 25px;
+            }
+        }
+
         .navbar-nav {
+
             li.nav-item>a.nav-link {
                 color: $text-color;
 

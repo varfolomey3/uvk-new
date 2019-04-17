@@ -132,6 +132,14 @@ body .container > nav .number-phone {
   color: #006894;
 }
 
+body .container > nav .navbar-brand {
+  padding: 0 .5rem;
+}
+
+body .container > nav .navbar-brand img {
+  height: 25px;
+}
+
 body .container > nav .navbar-nav li.nav-item > a.nav-link {
   color: #000000e6;
 }
