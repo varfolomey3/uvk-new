@@ -483,21 +483,22 @@ table.table {
 }
 
 footer {
+    .container-fluid {
+        background-color: $body-color-dark;
+    }
 
-    .container {
-        padding: 1rem 0 0 0;
+    .row {
+        padding: 1rem 0;
 
-        .row {
-            background-color: $body-color-dark;
-            padding: 1rem 0;
+        .col-sm-6 {
 
-            .col-sm-6>p {
+            p {
                 font-size: 12px;
             }
 
-            .col-sm-6>img {
+            img {
                 height: 30px;
-                padding: 0 2rem;
+ 
             }
 
             img.opzht {

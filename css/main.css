@@ -393,9 +393,6 @@ table.table {
     padding: 0;
     margin: 0;
   }
-  table.table tr td p {
-    padding: 5rem;
-  }
   table.table tr img {
     width: 70px;
   }
@@ -467,25 +464,23 @@ table.table {
   padding: 2rem;
 }
 
-footer .container {
-  padding: 1rem 0 0 0;
+footer .container-fluid {
+  background-color: #B7C8D3;
 }
 
-footer .container .row {
-  background-color: #B7C8D3;
+footer .row {
   padding: 1rem 0;
 }
 
-footer .container .row .col-sm-6 > p {
+footer .row .col-sm-6 p {
   font-size: 12px;
 }
 
-footer .container .row .col-sm-6 > img {
+footer .row .col-sm-6 img {
   height: 30px;
-  padding: 0 2rem;
 }
 
-footer .container .row img.opzht {
+footer .row .col-sm-6 img.opzht {
   height: 70px;
 }
 /*# sourceMappingURL=main.css.map */
