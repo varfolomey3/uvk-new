@@ -20,9 +20,20 @@
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <title>Уральская вагоноремонтная компания</title>
+<script>
+    $(window).on('load', function () {
+        $preloader = $('.loaderArea'),
+            $loader = $preloader.find('.loader');
+        $loader.fadeOut();
+        $preloader.delay(250).fadeOut('slow');
+    });
+</script>
 </head>
 
 <body>
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="../index.html">
@@ -61,9 +72,15 @@
         <tbody>
             <tr>
                 <td scope="row"><img src="../img/contacts/bodnar.jpg" alt="Боднар В.Е."></td>
-                <td>Боднар<br> Виктор<br> Евгеньевич</td>
-                <td>Генеральный<br> директор</td>
-                <td>Тел: 24-86-20</td>
+                <td>
+                    <p>Боднар<br> Виктор<br> Евгеньевич</p>
+                </td>
+                <td>
+                    <p>Генеральный<br> директор</p>
+                </td>
+                <td>
+                    <p>Тел: 24-86-20</p>
+                </td>
             </tr>
             <tr>
                 <td scope="row"><img src="../img/contacts/ryzanova.jpg" alt="Рузанова З.А."></td>
@@ -110,25 +127,27 @@
                     <p><span>E-mail:</span> secretary@uvrk.ru</p>
                     <p><span>Телефон:</span> +7 (3519) 24-86-24</p>
                     <p><span>Факс:</span> +7 (3519) 24-86-22</p>
-                       
+
                 </div>
-                <a class="btn" href="../doc/requisites.PDF" download="Реквизиты УВК" role="button"> <i class="fas fa-download"></i>Скачать реквизиты </a>
+                <a class="btn" href="../doc/requisites.PDF" download="Реквизиты УВК" role="button"> <i
+                        class="fas fa-download"></i>Скачать реквизиты </a>
             </div>
             <div class="col-sm-6">
                 <div class="container">
-                <p><span>ИНН:</span> 7705742646</p>
-                <p><span>КПП:</span> 745601001</p>
-                <p><span>ОГРН:</span> 1067746823836</p>
-                <p><span>Рассчетный счет:</span> 40702810772000010616 Отделение № 8597 Сбербанка России г. Челябинск</p>
-                <p><span>БИК:</span> 047501602</p>
-                <p><span>Корреспондентский счет:</span> 30101810700000000602</p>
-                <p><span>ОКПО:</span> 96499777</p>
-                <p><span>ОКФС:</span> 34</p>
-                <p><span>ОКАТО:</span> 75438372000</p>
-                <p><span>ОКОПФ:</span> 67</p>
-                <p><span>ОКВЭД:</span> 35.20.9</p>
+                    <p><span>ИНН:</span> 7705742646</p>
+                    <p><span>КПП:</span> 745601001</p>
+                    <p><span>ОГРН:</span> 1067746823836</p>
+                    <p><span>Рассчетный счет:</span> 40702810772000010616 Отделение № 8597 Сбербанка России г. Челябинск
+                    </p>
+                    <p><span>БИК:</span> 047501602</p>
+                    <p><span>Корреспондентский счет:</span> 30101810700000000602</p>
+                    <p><span>ОКПО:</span> 96499777</p>
+                    <p><span>ОКФС:</span> 34</p>
+                    <p><span>ОКАТО:</span> 75438372000</p>
+                    <p><span>ОКОПФ:</span> 67</p>
+                    <p><span>ОКВЭД:</span> 35.20.9</p>
+                </div>
             </div>
-        </div>
         </div>
     </div>
     <footer>
@@ -149,13 +168,13 @@
                         и в составе Globaltrans.
                     </p>
                     <div class="row">
-                            <div class="col-sm-6">
-                                <img src="../img/partners/globaltrans.png" alt="глобалтранс">
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="opzht" src="../img/partners/opzt.png" alt="опжт">
-                            </div>
+                        <div class="col-sm-6">
+                            <img src="../img/partners/globaltrans.png" alt="глобалтранс">
                         </div>
+                        <div class="col-sm-6">
+                            <img class="opzht" src="../img/partners/opzt.png" alt="опжт">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
