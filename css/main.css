@@ -268,7 +268,7 @@ body {
 }
 
 #accordion .card .card-body .row .col-sm-6 .container {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #accordion .card .card-body .row .col-sm-6 .container h6 {
@@ -326,6 +326,9 @@ body {
 
 #accordion .card .card-body .row ul.list-group > li {
   background-color: #CCDDE8;
+  padding: 0.68rem 1rem;
+  color: #08478C;
+  font-weight: 700;
 }
 
 #accordion .card .card-body .row ul.list-group > li img {
@@ -353,16 +356,12 @@ body {
 }
 
 #carouselId .row .col-sm-4 img {
-  height: 50px;
+  height: 60px;
   opacity: .8;
 }
 
 #carouselId .row .col-sm-4 img:hover {
   opacity: 1;
-}
-
-#carouselId .row .col-sm-4 img.big-img {
-  height: 60px;
 }
 
 table.table {

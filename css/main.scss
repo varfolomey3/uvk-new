@@ -265,7 +265,7 @@ body {
 
                 .col-sm-6 {
                     .container {
-                        padding: 1.5rem;
+                        padding: 1rem;
 
                         h6 {
                             color: $primary-color-dark;
@@ -330,9 +330,13 @@ body {
 
                 ul.list-group>li {
                     background-color: $body-color;
+                    padding: 0.68rem 1rem;
+                    color: $primary-color-dark;
+                    font-weight: 700;
 
                     img {
                         width: 80px;
+                        
                     }
                 }
 
@@ -359,19 +363,14 @@ body {
             padding: 1rem;
 
             img {
-                height: 50px;
+                height: 60px;
                 opacity: .8;
 
                 &:hover {
                     opacity: 1;
                 }
             }
-
-            img.big-img {
-                height: 60px;
-            }
         }
-
     }
 
 }
