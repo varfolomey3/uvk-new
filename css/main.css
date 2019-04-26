@@ -141,11 +141,12 @@ body {
 }
 
 .container > nav .navbar-nav li.nav-item > a.nav-link {
-  color: #000000e6;
+  color: #006894;
+  font-weight: 500;
 }
 
 .container > nav .navbar-nav li.nav-item > a.nav-link:hover {
-  color: #008AC3;
+  color: #08478C;
 }
 
 .container > nav .navbar-nav li.active > a.nav-link {
@@ -266,65 +267,25 @@ body {
   background-color: #B7C8D3;
 }
 
-#accordion .card .card-body .row .col-sm-4 .container {
+#accordion .card .card-body .row .col-sm-6 .container {
   padding: 1.5rem;
 }
 
-#accordion .card .card-body .row .col-sm-4 .container h6 {
+#accordion .card .card-body .row .col-sm-6 .container h6 {
   color: #08478C;
   font-size: 16px;
 }
 
-#accordion .card .card-body .row .col-sm-4 .container li {
+#accordion .card .card-body .row .col-sm-6 .container li {
   border: none;
 }
 
-#accordion .card .card-body .row .col-sm-4 .container p {
+#accordion .card .card-body .row .col-sm-6 .container p {
   background-color: #CCDDE8;
   padding: .15rem;
 }
 
-#accordion .card .card-body .row .col-sm-4 .container-fluid {
-  padding: 2.3rem 0;
-}
-
-@media (min-width: 319px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 205px;
-  }
-}
-
-@media (min-width: 374px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 235px;
-  }
-}
-
-@media (min-width: 767px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 165x;
-  }
-}
-
-@media (min-width: 1024px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 235px;
-  }
-}
-
-@media (min-width: 1240px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 285px;
-  }
-}
-
-@media (min-width: 1440px) {
-  #accordion .card .card-body .row .col-sm-4 .container-fluid .img-rgv {
-    height: 290px;
-  }
-}
-
-#accordion .card .card-body .row .col-sm-4 button.btn {
+#accordion .card .card-body .row .col-sm-6 button.btn {
   color: #08478C;
   background-color: #CCDDE8;
   margin: 1.5rem 0;
@@ -332,32 +293,43 @@ body {
   border: 2px solid #006894;
 }
 
-#accordion .card .card-body .row .col-sm-4 .modal-content {
+#accordion .card .card-body .row .col-sm-6 .modal-content {
   padding: 0;
   margin: 0;
 }
 
-#accordion .card .card-body .row .col-sm-4 .modal-content .modal-body {
+#accordion .card .card-body .row .col-sm-6 .modal-content .modal-body {
   padding: 0;
   margin: 0;
 }
 
-#accordion .card .card-body .row .col-sm-4 .modal-content .modal-body .container {
-  padding: 0 8.2rem;
-  margin: 0;
-  background-color: transparent;
+@media screen and (min-width: 300px) {
+  #accordion .card .card-body .row .col-sm-6 .modal-content .modal-body img {
+    width: 370px;
+  }
 }
 
-#accordion .card .card-body .row .col-sm-4 .modal-content .modal-body .container img {
-  width: 580px;
+@media screen and (min-width: 1000px) {
+  #accordion .card .card-body .row .col-sm-6 .modal-content .modal-body .container-fluid {
+    padding: 0 10rem;
+  }
+  #accordion .card .card-body .row .col-sm-6 .modal-content .modal-body .container-fluid img {
+    width: 530px;
+  }
 }
 
-#accordion .card .card-body .row .col-sm-4 ul.list-group > li {
+@media screen and (min-width: 1900px) {
+  #accordion .card .card-body .row .col-sm-6 .modal-content .modal-body img {
+    width: 850px;
+  }
+}
+
+#accordion .card .card-body .row ul.list-group > li {
   background-color: #CCDDE8;
 }
 
-#accordion .card .card-body .row .col-sm-4 ul.list-group > li img {
-  height: 23px;
+#accordion .card .card-body .row ul.list-group > li img {
+  width: 80px;
 }
 
 #carouselId {
@@ -366,6 +338,10 @@ body {
 
 #carouselId h4 {
   color: #08478C;
+}
+
+#carouselId .carousel-item {
+  padding: 1rem;
 }
 
 #carouselId .row {
@@ -378,6 +354,15 @@ body {
 
 #carouselId .row .col-sm-4 img {
   height: 50px;
+  opacity: .8;
+}
+
+#carouselId .row .col-sm-4 img:hover {
+  opacity: 1;
+}
+
+#carouselId .row .col-sm-4 img.big-img {
+  height: 60px;
 }
 
 table.table {
@@ -478,6 +463,7 @@ footer .row .col-sm-6 p {
 
 footer .row .col-sm-6 img {
   height: 30px;
+  padding: 0 1rem;
 }
 
 footer .row .col-sm-6 img.opzht {

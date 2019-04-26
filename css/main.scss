@@ -129,10 +129,11 @@ body {
     .navbar-nav {
 
         li.nav-item>a.nav-link {
-            color: $text-color;
+            color: $primary-color;
+            font-weight: 500;
 
             &:hover {
-                color: $primary-color-light;
+                color: $primary-color-dark;
             }
         }
 
@@ -262,7 +263,7 @@ body {
 
             .row {
 
-                .col-sm-4 {
+                .col-sm-6 {
                     .container {
                         padding: 1.5rem;
 
@@ -280,51 +281,9 @@ body {
                             background-color: $body-color;
                             padding: .15rem;
                         }
-                    }
-
-
-                    .container-fluid {
-                        padding: 2.3rem 0;
-
-                        @media (min-width: 319px) {
-                            .img-rgv {
-                                height: 205px;
-                            }
-                        }
-
-                        @media (min-width: 374px) {
-                            .img-rgv {
-                                height: 235px;
-                            }
-                        }
-
-                        @media (min-width: 767px) {
-                            .img-rgv {
-                                height: 165x;
-                            }
-                        }
-
-                        @media (min-width: 1024px) {
-                            .img-rgv {
-                                height: 235px;
-                            }
-                        }
-
-                        @media (min-width: 1240px) {
-                            .img-rgv {
-                                height: 285px;
-                            }
-                        }
-
-                        @media (min-width: 1440px) {
-                            .img-rgv {
-                                height: 290px;
-                            }
-                        }
-
-
 
                     }
+
 
                     button.btn {
                         color: $primary-color-dark;
@@ -342,28 +301,41 @@ body {
                             padding: 0;
                             margin: 0;
 
-                            .container {
-                                padding: 0 8.2rem;
-                                margin: 0;
-                                background-color: transparent;
-
+                            @media screen and (min-width: 300px) {
                                 img {
-                                    width: 580px;
+                                    width: 370px;
                                 }
-
                             }
+
+                            @media screen and (min-width: 1000px) {
+                                .container-fluid {
+                                    padding: 0 10rem;
+
+                                    img {
+                                        width: 530px;
+                                    }
+                                }
+                            }
+
+                            @media screen and (min-width: 1900px) {
+                                img {
+                                    width: 850px;
+                                }
+                            }
+
+
                         }
                     }
-
-                    ul.list-group>li {
-                        background-color: $body-color;
-
-                        img {
-                            height: 23px;
-                        }
-                    }
-
                 }
+
+                ul.list-group>li {
+                    background-color: $body-color;
+
+                    img {
+                        width: 80px;
+                    }
+                }
+
             }
         }
     }
@@ -376,6 +348,10 @@ body {
         color: $primary-color-dark;
     }
 
+    .carousel-item {
+        padding: 1rem;
+    }
+
     .row {
         padding: 1.2rem;
 
@@ -384,8 +360,18 @@ body {
 
             img {
                 height: 50px;
+                opacity: .8;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            img.big-img {
+                height: 60px;
             }
         }
+
     }
 
 }
@@ -498,7 +484,7 @@ footer {
 
             img {
                 height: 30px;
- 
+                padding: 0 1rem;
             }
 
             img.opzht {
