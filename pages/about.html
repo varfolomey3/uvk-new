@@ -12,29 +12,14 @@
     <link rel="mask-icon" href="../img/favico/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-</head>
-<link rel="stylesheet" href="../css/main.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<script src="../js/jquery-3.3.1.min.js"></script>
-
-<script src="../js/bootstrap.min.js"></script>
-<title>Уральская вагоноремонтная компания</title>
-<script>
-    $(window).on('load', function () {
-        $preloader = $('.loaderArea'),
-            $loader = $preloader.find('.loader');
-        $loader.fadeOut();
-        $preloader.delay(1).fadeOut('slow');
-    });
-</script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Уральская вагоноремонтная компания</title>
 </head>
 
 <body>
-    <div class="loaderArea">
-        <div class="loader"></div>
-    </div>
     <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="../index.html">
@@ -65,27 +50,30 @@
     </div>
     <div class="container about">
         <div class="row">
-        <div class="col-sm-6">
-            <h5>О компании</h5>
-            <p>Акционерное общество «Уральская вагоноремонтная компания» зарегистрировано 18 июля 2006 года.</p>
-            <p>Профессионализм, качество, надежность, - вот те критерии, благодаря которым компания завоевала доверие и
-                добрую славу от собственников подвижного состава.</p>
-            <p> Следуя европейским стандартам организации производственного процесса, предприятие стремится проводить
-                освоение автоматизации оборудования и внедрять программы, нацеленные на повышение производительности и
-                обеспечение комфортных условий труда работников.</p>
-            <p>Главный приоритет для нашей компании - это интересы собственников подвижного состава. Надежность,
-                индивидуальный подход к каждому клиенту, компетентность персонала - это принципы деятельности АО
-                «УВК», которые позволяют уверенно работать, решая поставленные задачи и отвечая требованиям самых
-                взыскательных клиентов.</p>
-            </p>
+            <div class="col-sm-6">
+                <h5>О компании</h5>
+                <p>Акционерное общество «Уральская вагоноремонтная компания» зарегистрировано 18 июля 2006 года.</p>
+                <p>Профессионализм, качество, надежность, - вот те критерии, благодаря которым компания завоевала
+                    доверие и
+                    добрую славу от собственников подвижного состава.</p>
+                <p> Следуя европейским стандартам организации производственного процесса, предприятие стремится
+                    проводить
+                    освоение автоматизации оборудования и внедрять программы, нацеленные на повышение производительности
+                    и
+                    обеспечение комфортных условий труда работников.</p>
+                <p>Главный приоритет для нашей компании - это интересы собственников подвижного состава. Надежность,
+                    индивидуальный подход к каждому клиенту, компетентность персонала - это принципы деятельности АО
+                    «УВК», которые позволяют уверенно работать, решая поставленные задачи и отвечая требованиям самых
+                    взыскательных клиентов.</p>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img src="../img/about-origin.jpg" alt="«УВК»">
+            </div>
         </div>
-        <div class="col-sm-6">
-            <img src="../img/about-origin.jpg" alt="«УВК»">
-        </div>
-    </div>
     </div>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6">
                     <p class="p-2">
@@ -102,18 +90,27 @@
                         и в составе Globaltrans.
                     </p>
                     <div class="row">
-                            <div class="col-sm-6">
-                                <img src="../img/partners/globaltrans.png" alt="глобалтранс">
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="opzht" src="../img/partners/opzt.png" alt="опжт">
-                            </div>
+                        <div class="d-flex col-sm-6  justify-content-center">
+                            <a href="http://www.globaltrans.com" target="_blank" alt="глобалтранс"><img
+                                    src="../img/partners/globaltrans.png" alt="глобалтранс"></a>
                         </div>
+                        <div class="d-flex col-sm-6  justify-content-center">
+                            <a href="http://opzt.ru" target="_blank" alt="опжт"><img class="opzht"
+                                    src="../img/partners/opzt.png" alt="опжт"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
+    <script>
+        SmoothScroll({
+            keyboardSupport: false
+        })
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -33,68 +33,6 @@ body {
     background: $body-color;
 }
 
-.loaderArea {
-    background: linear-gradient(90deg, $primary-color-dark 10%, $primary-color 90%);
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100000;
-
-    .loader {
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        left: 50%;
-        margin-left: -20px;
-        top: 50%;
-        margin-top: -20px;
-    }
-
-    .loader:before,
-    .loader:after {
-        content: "";
-        height: 40px;
-        width: 40px;
-        border: 8px solid rgba(255, 255, 255, .5);
-        border-radius: 10px;
-        position: absolute;
-        top: 0;
-    }
-
-    .loader:before {
-        animation: animate 2s infinite linear;
-    }
-
-    @keyframes animate {
-        0% {
-            transform: rotate(0) skew(0);
-        }
-
-        100% {
-            transform: rotate(180deg) skew(360deg);
-        }
-    }
-
-
-    .loader:after {
-        animation: animate2 2s infinite linear;
-    }
-
-    @keyframes animate2 {
-        0% {
-            transform: rotate(0) skew(0);
-        }
-
-        100% {
-            transform: rotate(-180deg) skew(-360deg);
-        }
-    }
-}
-
-
 .container>nav {
     background-color: $body-color-dark;
 
@@ -228,10 +166,17 @@ body {
 
                 .info>a img {
                     height: 100px;
+                    width: 150px;
                 }
 
                 .info>a {
-                    color: $primary-color-dark;
+                    color: $text-color;
+                    opacity: 0.85;
+                    &:hover {
+                        text-decoration: none;
+                        opacity: 1;
+                        color: $primary-color-dark;
+                    }
                 }
             }
         }
@@ -303,7 +248,7 @@ body {
 
                             @media screen and (min-width: 300px) {
                                 img {
-                                    width: 370px;
+                                    width: 350px;
                                 }
                             }
 
@@ -463,6 +408,21 @@ table.table {
         img {
             width: 600px;
             padding: 2rem;
+        }
+    }
+}
+
+.news-block {
+    background-color: $body-color;
+    padding: 1rem;
+    h3{
+        color: $primary-color-dark;
+    }
+    .col-sm-6 {
+        background-color: $body-color-dark;
+        padding: 1rem;
+        img {
+           width: 580px;
         }
     }
 }

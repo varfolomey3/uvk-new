@@ -29,7 +29,6 @@
 </head>
 
 <body>
-
 	<div class="container">
 		<nav class="navbar navbar-expand-sm navbar-light">
 			<a class="navbar-brand" href="#">
@@ -42,8 +41,15 @@
 			</button>
 			<div class="collapse navbar-collapse" id="collapsibleNavId">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item">
-						<a class="nav-link text-uppercase" href="pages/about.html">О компании</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">О компании</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownId">
+							<a class="dropdown-item" href="#">История развития</a>
+							<a class="dropdown-item" href="#">Стратегия развития</a>
+							<a class="dropdown-item" href="#">Lorem, ipsum.</a>
+							<a class="dropdown-item" href="#">Lorem, ipsum.</a>
+							<a class="dropdown-item" href="#">Новости</a>
+						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-uppercase" href="pages/repair-vagon.html">Услуги</a>
@@ -67,35 +73,38 @@
 						<li data-target="#carousel" data-slide-to="1"></li>
 						<li data-target="#carousel" data-slide-to="2"></li>
 						<li data-target="#carousel" data-slide-to="3"></li>
+						<li data-target="#carousel" data-slide-to="4"></li>
 					
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="carousel-item active">
-							<img src="img/carousel/sixtn.JPG" alt="First slide">
+							<img src="img/carousel/first.JPG" alt="АБК">
 							<div class="carousel-caption">
 								<h3>Уральская вагоноремонтная компания</h3>
-								<p>Индивидуальный подход к каждому клиенту</p>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/carousel/second.jpg" alt="Second slide">
+							<img src="img/carousel/second.jpg" alt="ВСЦ">
 							<div class="carousel-caption">
 								<h3>Вагоносборочных цех</h3>
-								<p>Производим капитальный, деповкой и текущий ремонт грузовых вагонов</p>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/carousel/fouth.jpg" alt="Fourth slide">
+							<img src="img/carousel/fouth.jpg" alt="КРЦ">
 							<div class="carousel-caption">
-								<h3>Колесно-роликовый цех</h3>
-								<p>Предоставляем услуги по текущему, среднему и капитальному ремонту колесных пар</p>
+								<h3>Запасные части для ремонта вагонов</h3>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/carousel/fifth.jpg" alt="Fifth slide">
+							<img src="img/carousel/fifth.jpg" alt="КРС">
 							<div class="carousel-caption">
-								<h3>КРС</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat.</p>
+								<h3>Участок формирования колесных пар</h3>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/carousel/sixtn.JPG" alt="Парк">
+							<div class="carousel-caption">
+								<h3>Парк пополнения вагонов в ремонт</h3>
 							</div>
 						</div>
 					</div>
@@ -113,38 +122,33 @@
 				<div class="d-flex flex-column">
 					<h5>Новости:</h5>
 					<div class="p-2">
+						<span class="date">01.05.2019</span>
+						<div class="d-flex">
+							<div class="info">
+								<a href="pages/news.html"><img src="img/newsh.jpg" alt="news-img">
+							</div>
+							<div class="info">Сегодня сотрудники уральской вагоноремонтной компании поучаствовали в демонстации приуроченной к 1 мая. </a>
+							</div>
+						</div>
+					</div>
+					<div class="p-2">
+						<span class="date">26.04.2019</span>
+						<div class="d-flex">
+							<div class="info">
+								<a href="pages/news.html"><img src="img/news-2.JPG" alt="news-img">
+							</div>
+							<div class="info">Сегодня на территории «УВК» был проведен субботник. В ходе него была убрана прилегающая территория и обновлена дорожная разметка на парковке.  </a>
+							</div>
+						</div>
+					</div>
+					<div class="p-2">
 						<span class="date">02.04.2019</span>
 						<div class="d-flex">
 							<div class="info">
-								<a href="#"><img src="img/news.png" alt="news-img"></a>
+								<a href="pages/news.html"><img src="img/news-3.jpg" alt="news-img">
 							</div>
 							<div class="info">Сегодня сотрудники Уральской вагоноремонтной компании приняли участие в
-								соревнованиях по стритболу, подъёму гири на время и настольному теннису. <a href="#"
-									title="Подробнее">...</a>
-							</div>
-						</div>
-					</div>
-					<div class="p-2">
-						<span class="date">01.01.2019</span>
-						<div class="d-flex">
-							<div class="info">
-								<a href="#"><img src="img/news.png" alt="news-img"></a>
-							</div>
-							<div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deserunt
-								exercitationem quia dolorem corrupti minima culpa quo nemo quod porro? <a href="#"
-									title="Подробнее">...</a>
-							</div>
-						</div>
-					</div>
-					<div class="p-2">
-						<span class="date">01.01.2019</span>
-						<div class="d-flex">
-							<div class="info">
-								<a href="#"><img src="img/news.png" alt="news-img"></a>
-							</div>
-							<div class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ullam
-								nisi enim, delectus dicta illo tempora quibusdam fugiat quas commodi. <a href="#"
-									title="Подробнее">...</a>
+								соревнованиях по стритболу, подъёму гири на время и настольному теннису.</a>
 							</div>
 						</div>
 					</div>
@@ -359,14 +363,6 @@
 		</div>
 	</footer>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script>
-		$(window).on('load', function () {
-			$preloader = $('.loaderArea'),
-				$loader = $preloader.find('.loader');
-			$loader.fadeOut();
-			$preloader.delay(250).fadeOut('slow');
-		});
-	</script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 
