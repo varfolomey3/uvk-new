@@ -16,132 +16,145 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<title>Уральская вагоноремонтная компания</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<!-- Навбар -->
-<div class="container-fluid">
-	<nav class="navbar navbar-expand-sm navbar-light">
-		<a class="navbar-brand" href="#">
-			<img src="img/logo.png" height="35" alt="uvk">
-		</a>
-		<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-			aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="collapsibleNavId">
-			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-				<li class="nav-item dropdown text-uppercase">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">О компании</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownId">
-						<a class="dropdown-item" href="#">История развития</a>
-						<a class="dropdown-item" href="#">Lorem, ipsum.</a>
-						<a class="dropdown-item" href="#">Lorem, ipsum.</a>
-						<a class="dropdown-item" href="#">Новости</a>
-					</div>
-				</li>
-				<li class="nav-item text-uppercase">
-					<a class="nav-link" href="#">Услуги</a>
-				</li>
-				<li class="nav-item text-uppercase">
-					<a class="nav-link" href="#">Контакты</a>
-				</li>
-			</ul>
-			<span class="phone-number">+7 (3519) 24-86-24</span>
-		</div>
-	</nav>
-	<div class="name">
-		<p>Уральская<br>Вагоноремонтная<br>Компания</p>
-	</div>
-</div>
-<!-- Услуги -->
-<div id="accordion">
-	<div class="card">
-		<div class="card-header">
-			<a class="card-link" data-toggle="collapse" href="#collapseOne">
-				Ремонт грузовых вагонов
-			</a>
-		</div>
-		<div id="collapseOne" class="collapse show" data-parent="#accordion">
-			<div class="card-body">
-				<div class="row">
-					<div class="col-12 col-sm-6 col-md-6 col-xl-4">
-						<div class="services">АО «УВК» производит капитальный, деповской ремонт полувагонов, а так же
-							текущий ремонт в объеме ТР-1 и ТР-2.
-							
-							Благодаря современному оборудованию и высококвалифицированным специалистам ремонт
-							производится с гарантией качества, обеспечивающей эксплуатацию подвижного состава на весь
-							период до следующего планового ремонта</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-xl-4">
-						<div class="services"><img src="img/repair-vagon.jpg" width="300" alt="serv-img"></div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-xl-4">
-						<div class="services">
-							<ul>
-								<h5>Мы ремонтируем:</h5>
-								<li><img src="img/cov.png" alt="vagon" width="90"> -Крытые вагоны</li>
-								<li><img src="img/poluvagon.png" alt="vagon" width="90"> - Полувагоны</li>
-								<li><img src="img/platform.png" alt="vagon" width="90"> - Платформы </li>
-								<li><img src="img/platform_c.png" alt="vagon" width="90"> - Платформы </li>
-								<li><img src="img/hopper.png" alt="vagon" width="90"> - Хопперы</li>
+<title>Уральская вагоноремонтная компания</title>
+</head>
 
-							</ul>
+<body>
+
+	<!-- Навбар -->
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-sm navbar-light">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" height="35" alt="uvk">
+			</a>
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+				data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavId">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item dropdown text-uppercase">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">О компании</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownId">
+							<a class="dropdown-item" href="#">История развития</a>
+							<a class="dropdown-item" href="#">Lorem, ipsum.</a>
+							<a class="dropdown-item" href="#">Lorem, ipsum.</a>
+							<a class="dropdown-item" href="#">Новости</a>
+						</div>
+					</li>
+					<li class="nav-item text-uppercase">
+						<a class="nav-link" href="#">Услуги</a>
+					</li>
+					<li class="nav-item text-uppercase">
+						<a class="nav-link" href="#">Контакты</a>
+					</li>
+				</ul>
+				<span class="phone-number">+7 (3519) 24-86-24</span>
+			</div>
+		</nav>
+		<div class="name">
+			<p>Уральская<br>Вагоноремонтная<br>Компания</p>
+		</div>
+	</div>
+
+	<!-- Услуги -->
+	<div id="accordion">
+		<div class="card">
+			<div class="card-header">
+				<a class="card-link" data-toggle="collapse" href="#collapseOne">
+					Ремонт грузовых вагонов
+				</a>
+			</div>
+			<div id="collapseOne" class="collapse show" data-parent="#accordion">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-12 col-sm-6 col-md-12  col-lg-12 col-xl-4">
+							<div class="services">АО «УВК» производит капитальный, деповской ремонт полувагонов, а так
+								же
+								текущий ремонт в объеме ТР-1 и ТР-2.
+
+								Благодаря современному оборудованию и высококвалифицированным специалистам ремонт
+								производится с гарантией качества, обеспечивающей эксплуатацию подвижного состава на
+								весь
+								период до следующего планового ремонта</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12  col-lg-12 col-xl-4">
+							<div class="services"><img src="img/repair-vagon.jpg" width="300" alt="serv-img"></div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-4">
+							<div class="services">
+								<ul>
+									<h5>Мы ремонтируем:</h5>
+									<li><img src="img/cov.png" alt="vagon" width="90"> -Крытые вагоны</li>
+									<li><img src="img/poluvagon.png" alt="vagon" width="90"> - Полувагоны</li>
+									<li><img src="img/platform.png" alt="vagon" width="90"> - Платформы </li>
+									<li><img src="img/platform_c.png" alt="vagon" width="90"> - Платформы </li>
+									<li><img src="img/hopper.png" alt="vagon" width="90"> - Хопперы</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+				<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+					Ремонт колесных пар
+				</a>
+			</div>
+			<div id="collapseTwo" class="collapse" data-parent="#accordion">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+							<div class="services">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolor
+								accusantium magnam debitis iusto rerum dicta modi? Praesentium excepturi facilis quia
+								similique exercitationem neque totam iure optio, quis dolore est repellat nesciunt iste
+								fugit illum nihil amet magni in nulla ipsa voluptas commodi necessitatibus tenetur.
+								Voluptatem sunt minus nam esse magni maxime velit et quibusdam ad vitae! Obcaecati qui
+								magnam alias quisquam quo corporis fuga ratione! Dolore odio quod autem temporibus
+								voluptas,
+								minus fugiat tempore, atque qui ab asperiores ex.
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-4">
+							<div class="services"><img src="img/news.png" width="300" alt="serv-img"></div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-4">
+							<div class="services">
+								<ul>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+									<li>Lorem, ipsum dolor.</li>
+
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="card">
-		<div class="card-header">
-			<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-				Ремонт колесных пар
-			</a>
-		</div>
-		<div id="collapseTwo" class="collapse" data-parent="#accordion">
-			<div class="card-body">
-				<div class="row">
-					<div class="col-12 col-sm-12 col-md-12 col-xl-4">
-						<div class="services">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolor
-							accusantium magnam debitis iusto rerum dicta modi? Praesentium excepturi facilis quia
-							similique exercitationem neque totam iure optio, quis dolore est repellat nesciunt iste
-							fugit illum nihil amet magni in nulla ipsa voluptas commodi necessitatibus tenetur.
-							Voluptatem sunt minus nam esse magni maxime velit et quibusdam ad vitae! Obcaecati qui
-							magnam alias quisquam quo corporis fuga ratione! Dolore odio quod autem temporibus voluptas,
-							minus fugiat tempore, atque qui ab asperiores ex.
-						</div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-xl-4">
-						<div class="services"><img src="img/news.png" width="300" alt="serv-img"></div>
-					</div>
-					<div class="col-12 col-sm-6 col-md-6 col-xl-4">
-						<div class="services">
-							<ul>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
-</div>
-</div>
 
-<!-- Новости -->
+	<!-- Новости 
 <div class="block">
 	<h4>Новости</h4>
 	<div class="row">
@@ -213,59 +226,108 @@
 		</div>
 	</div>
 </div>
-<div id="carouselId" class="carousel slide" data-ride="carousel">
+-->
+
+	<!-- Партнеры слайдер
+	<div id="carouselId" class="carousel slide" data-ride="carousel">
 		<h4>Наши партнеры:</h4>
-	<div class="carousel-inner" role="listbox">
-		<div class="carousel-item active">
-			<div class="row">
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/grs.png" height="60" alt="partners">
-				</div>
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/mmk.png" height="60" alt="partners">
-				</div>
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/np.png" height="60" alt="partners">
-				</div>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<div class="row">
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/tgk.png" height="60" alt="partners">
-				</div>
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/syg.png" height="60" alt="partners">
-				</div>
-				<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
-					<img src="img/partners/tls.png" height="60" alt="partners">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<footer>
-	<div class="row">
-		<div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
-				<p>АО «Уральская вагоноремонтная компания»<br>
-				455005 Челябинская область г. Магнитогорск ул. Моховая д. 16<br>
-				Телефон +7 (3519) 24-86-24<br>
-				Факс +7 (3519) 24-86-22<br>
-				Е-mail secretary@uvrk.ru</p>
-		</div>
-		<div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
-				<p>Уральская вагоноремонтная компания состоит в составе объединения производителей железнодорожной техники и в составе Globaltrans.</p>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
 				<div class="row">
-					<div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6"><img src="img/partners/globaltrans.png" height="40" alt="globaltrans"></div>
-					<div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6"><img src="img/partners/opzt.png" height="70" alt="opzt"></div>
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/grs.png" height="120" alt="partners">
+					</div>
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/mmk.png" height="120" alt="partners">
+					</div>
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/np.png" height="120" alt="partners">
+					</div>
 				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="row">
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/tgk.png" height="120" alt="partners">
+					</div>
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/syg.png" height="120" alt="partners">
+					</div>
+					<div class="d-flex justify-content-center col-sm-12 col-12 col-xl-4 partners">
+						<img src="img/partners/tls.png" height="120" alt="partners">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+-->
+	<!-- Партнеры v.2 -->
+	<div class="block-partners">
+		<h4>Наши партнеры:</h4>
+		<div class="row">
+			<div class="d-flex justify-content-center col-sm-6 col-6 col-md-6 col-xl-3 partners">
+				<a href="#" class="grs"><img src="img/partners/grs.png" alt="partners"></a>
+			</div>
+			<div class="d-flex justify-content-center col-sm-6 col-6 col-md-6 col-xl-3 partners">
+				<a href="#" class="mmk"><img src="img/partners/mmk.png" alt="partners"></a>
+			</div>
+			<div class="d-flex justify-content-center col-sm-6 col-6 col-md-6 col-xl-3 partners">
+				<a href="#" class="np"><img src="img/partners/np.png" alt="partners"></a>
+			</div>
+			<div class="d-flex justify-content-center col-sm-6 col-6 col-md-6 col-xl-3 partners">
+				<a href="#" class="tgk"><img src="img/partners/tgk.png" alt="partners"></a>
+			</div>
 		</div>
 	</div>
-</footer>
-<body>
-	<script src="js/SmoothScroll.js"></script>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<!-- Футер -->
+	<footer>
+		<div class="row">
+			<div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
+				<p>АО «Уральская вагоноремонтная компания»<br>
+					455005 Челябинская область г. Магнитогорск ул. Моховая д. 16<br>
+					Телефон +7 (3519) 24-86-24<br>
+					Факс +7 (3519) 24-86-22<br>
+					Е-mail secretary@uvrk.ru</p>
+			</div>
+			<div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
+				<p>Уральская вагоноремонтная компания состоит в составе объединения производителей железнодорожной
+					техники и в составе Globaltrans.</p>
+				<div class="row">
+					<div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6">
+						<img src="img/partners/globaltrans.png" height="40" alt="globaltrans">
+					</div>
+					<div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6">
+						<img src="img/partners/opzt.png" height="70" alt="opzt">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		$(document).ready(function () {
+			$('.grs').tooltip({
+				title: "Гарант рейл сервис",
+				html: true,
+				placement: "top"
+			});
+			$('.mmk').tooltip({
+				title: "Магнитогорский металлургический комбинат",
+				html: true,
+				placement: "top"
+			});
+			$('.np').tooltip({
+				title: "Новая перевозочная компания",
+				html: true,
+				placement: "top"
+			});
+			$('.tgk').tooltip({
+				title: "Трубная грузовая компания",
+				html: true,
+				placement: "top"
+			});
+		});
+	</script>
+
 </body>
 
 </html>
