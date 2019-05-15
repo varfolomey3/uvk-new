@@ -16,7 +16,8 @@ a,
 h1,
 h2,
 h3,
-h4 {
+h4,
+div {
     font-family: 'Comfortaa';
 }
 
@@ -33,422 +34,167 @@ body {
     background: $body-color;
 }
 
-.container>nav {
-    background-color: $body-color-dark;
+// Навбар
+.container-fluid {
+    background: url(../img/main.jpg);
+    padding-bottom: 8.4rem;
 
-    .email>a {
-        i.fas {
-            font-size: 15px;
-            border: 1px solid $primary-color;
-            border-radius: .3rem;
-            padding: .35rem;
-            margin: 0 1rem;
+    .navbar {
+        .nav-item>.nav-link {
             color: $primary-color;
 
             &:hover {
-                color: $primary-color-dark;
-                border-color: $primary-color-dark;
-            }
-        }
-    }
-
-    .number-phone {
-        color: $primary-color;
-    }
-
-    .navbar-brand {
-        padding: 0 .5rem;
-
-        img {
-            height: 25px;
-        }
-    }
-
-    .navbar-nav {
-
-        li.nav-item>a.nav-link {
-            color: $primary-color;
-            font-weight: 500;
-
-            &:hover {
-                color: $primary-color-dark;
+                color: $primary-color-light;
             }
         }
 
-        li.active>a.nav-link {
-            color: $primary-color;
-        }
+        .dropdown-menu {
+            background: $body-color;
+            margin-top: .8rem;
 
-        li.nav-item>div.dropdown-menu {
-            background-color: $body-color-dark;
-            border: 4px solid $body-color;
-            margin-top: .5em;
-        }
-
-        div.dropdown-menu>a.dropdown-item {
-            &:hover {
-                background-color: transparent;
-                color: $primary-color;
+            .dropdown-item {
+                &:hover {
+                    background: $body-color-light;
+                }
             }
         }
 
-    }
-}
-
-.container>.row {
-    background-color: $body-color;
-    padding: 0;
-    margin: 0;
-
-    .col-md-7 {
-        padding: 1rem;
-        margin: 0;
-
-        @media (min-width: 320px) {
-            .carousel-item img {
-                height: 300px;
-            }
-        }
-
-        @media (min-width: 900px) {
-            .carousel-item img {
-                height: 35px;
-            }
-        }
-
-        @media (min-width: 1000px) {
-            .carousel-item img {
-                height: 580px;
-            }
-        }
-
-        @media (min-width: 1300px) {
-            .carousel-item img {
-                height: 650px;
-            }
-        }
-
-        @media (min-width: 1900px) {
-            .carousel-item img {
-                height: 850px;
-            }
-        }
-    }
-
-    .col-sm-5 {
-        padding: 0;
-        margin: 1rem 0;
-        background-color: $body-color-dark;
-
-        h5 {
+        .phone-number {
             color: $primary-color-dark;
-            margin: 1rem 0 0 1rem;
-            padding: 0;
-        }
-
-        .p-2 {
-            margin: 0.8rem;
-            background-color: $body-color;
-
-            .date {
-                color: $primary-color-dark;
-                padding: .2rem 1rem;
-                font-size: 14px;
-                font-weight: 700;
-            }
-
-            .d-flex {
-                padding: 0.35rem;
-
-                .info {
-                    padding: .5rem;
-                }
-
-                .info>a img {
-                    height: 100px;
-                    width: 150px;
-                }
-
-                .info>a {
-                    color: $text-color;
-                    opacity: 0.85;
-                    &:hover {
-                        text-decoration: none;
-                        opacity: 1;
-                        color: $primary-color-dark;
-                    }
-                }
-            }
+            font-weight: 700;
         }
     }
 
+    .name {
+        p {
+            padding: 13rem 0 0 3.5rem;
+            font-size: 2rem;
+            color: $primary-color;
+        }
+    }
 }
 
+// Услуги-блок
 #accordion {
     .card {
-        background-color: $body-color;
         border: none;
 
         .card-header {
-            background-color: $body-color;
+            background: $body-color-dark;
 
-            a>h5.mb-0 {
-                color: $primary-color;
-
-                &:hover {
-                    text-decoration: none;
-                    color: $primary-color-dark;
-                }
-            }
-
-        }
-
-        .card-body {
-            background-color: $body-color-dark;
-
-            .row {
-
-                .col-sm-6 {
-                    .container {
-                        padding: 1rem;
-
-                        h6 {
-                            color: $primary-color-dark;
-                            font-size: 16px;
-                        }
-
-                        li {
-                            border: none;
-
-                        }
-
-                        p {
-                            background-color: $body-color;
-                            padding: .15rem;
-                        }
-
-                    }
-
-
-                    button.btn {
-                        color: $primary-color-dark;
-                        background-color: $body-color;
-                        margin: 1.5rem 0;
-                        padding: 1rem;
-                        border: 2px solid $primary-color;
-                    }
-
-                    .modal-content {
-                        padding: 0;
-                        margin: 0;
-
-                        .modal-body {
-                            padding: 0;
-                            margin: 0;
-
-                            @media screen and (min-width: 300px) {
-                                img {
-                                    width: 350px;
-                                }
-                            }
-
-                            @media screen and (min-width: 1000px) {
-                                .container-fluid {
-                                    padding: 0 10rem;
-
-                                    img {
-                                        width: 530px;
-                                    }
-                                }
-                            }
-
-                            @media screen and (min-width: 1900px) {
-                                img {
-                                    width: 850px;
-                                }
-                            }
-
-
-                        }
-                    }
-                }
-
-                ul.list-group>li {
-                    background-color: $body-color;
-                    padding: 0.68rem 1rem;
-                    color: $primary-color-dark;
-                    font-weight: 700;
-
-                    img {
-                        width: 80px;
-                        
-                    }
-                }
-
-            }
-        }
-    }
-}
-
-#carouselId {
-    background-color: $body-color;
-
-    h4 {
-        color: $primary-color-dark;
-    }
-
-    .carousel-item {
-        padding: 1rem;
-    }
-
-    .row {
-        padding: 1.2rem;
-
-        .col-sm-4 {
-            padding: 1rem;
-
-            img {
-                height: 60px;
-                opacity: .8;
-
-                &:hover {
-                    opacity: 1;
-                }
-            }
-        }
-    }
-
-}
-
-table.table {
-    margin-bottom: 0;
-    padding: 0;
-    margin: 0;
-
-    @media (max-width: 500px) {
-        tr {
-            background-color: $body-color-dark;
-            font-size: 9px;
-            padding: 0;
-            margin: 0;
-
-
-            img {
-                width: 70px;
-            }
-        }
-
-    }
-
-
-
-    @media (min-width: 1200px) {
-        tr {
-            background-color: $body-color-dark;
-
-            font-size: 16px;
-
-            img {
-                width: 120px;
-            }
-        }
-
-    }
-}
-
-.container {
-    background-color: $body-color;
-
-    h5 {
-        padding: 0.5rem 1.5rem;
-        color: $primary-color-dark;
-    }
-
-    .col-sm-6>.container {
-        background-color: $body-color-dark;
-        padding: 1rem;
-        border-radius: 0.35rem;
-
-        p {
-            font-size: 13px;
-
-            span {
+            .card-link {
                 color: $primary-color-dark;
+                font-size: 1.1rem;
                 font-weight: 700;
             }
         }
-    }
 
-    .col-sm-6>a {
-        background-color: $body-color-dark;
-        margin: 1.5rem 0;
+        .card-body {
+            background: $body-color;
 
-        &:hover {
-            background-color: $body-color-light;
-        }
+            .row {
 
-        i {
-            padding: .5rem;
-            font-size: 20px;
-            color: $primary-color-dark;
-        }
-    }
-}
+                .services {
+                    background: $body-color-dark;
+                    padding: 1rem;
+                    border-radius: .8rem;
+                    font-size: 1.1rem;
 
-.about {
-    padding: 1rem;
+                    img {
+                        margin: .1rem 1.5rem;
+                    }
 
-    .col-sm-6 {
-        background-color: $body-color-dark;
-
-        h5 {
-            color: $primary-color;
-        }
-
-        img {
-            width: 600px;
-            padding: 2rem;
+                    ul {
+                        padding: 0;
+                        h5 {
+                            padding: 0.3rem 1.3rem;
+                        }
+                        li {
+                            list-style: none;
+                            margin: 0;
+                            padding: .14rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
-.news-block {
-    background-color: $body-color;
-    padding: 1rem;
-    h3{
+// Новости-блок
+.block {
+    background: $body-color;
+    padding-top: 1rem;
+
+    h4 {
         color: $primary-color-dark;
-    }
-    .col-sm-6 {
-        background-color: $body-color-dark;
         padding: 1rem;
-        img {
-           width: 580px;
-        }
-    }
-}
-
-footer {
-    .container-fluid {
-        background-color: $body-color-dark;
+        margin: 0;
+        font-weight: 700;
     }
 
     .row {
-        padding: 1rem 0;
+        margin: 0;
 
-        .col-sm-6 {
+        .col-12,
+        .col-sm-12,
+        .col-md-6,
+        .col-xl-4 {
+            padding: 0;
+            margin: 0;
 
-            p {
-                font-size: 12px;
-            }
+            .news-block {
+                background: $body-color-dark;
+                border-radius: .8rem;
+                margin: 1rem;
+                padding: 1rem;
 
-            img {
-                height: 30px;
-                padding: 0 1rem;
-            }
+                .news-text {
+                    padding: 1rem;
 
-            img.opzht {
-                height: 70px;
+                    a {
+                        color: $text-color;
+
+                        &:hover {
+                            text-decoration: none;
+                            color: $primary-color;
+                        }
+                    }
+                }
             }
         }
+    }
+}
+
+// Партнеры
+.carousel > h4 {
+    background: $body-color;
+    padding: 1rem;
+    font-weight: 700;
+    margin: 0;
+    color: $primary-color-dark;
+}
+.partners {
+    padding: 3rem 0;
+    background: $body-color;
+}
+
+// Footer
+footer  {
+    background: $body-color-dark;
+    .row {
+        padding: 0;
+        margin: 0;
+    .footer {
+        padding: 1rem;
+        p {
+            padding: .3rem;
+            font-size: .9rem;
+            margin: 0;
+        }
+        .img {
+            padding: 1rem;
+        }
+    }   
     }
 }
