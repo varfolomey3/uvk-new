@@ -99,13 +99,23 @@ body {
                     border-radius: .8rem;
                     p {
                         
-                        padding: 1rem;
+                        padding: .3rem 1rem;
+                        margin: 0;
 
                         font-size: 1rem;
-                        margin-bottom: 1rem;
                     }
                     li > img {
-                        width: 80px;
+                        width: 150px;
+                    }
+                    li.test {
+                        padding: 0.52rem 8rem;
+                        background: url(../img/cov-nocolor.png) no-repeat;
+                        &:hover {
+                            background: url(../img/cov.png) no-repeat;
+                        }
+                        &:focus {
+                            background: url(../img/cov.png) no-repeat;
+                        }
                     }
                     img {
                         width: 100%;
@@ -115,7 +125,8 @@ body {
                         padding: 0 1rem;
 
                         h5 {
-                            padding: 0 0rem;
+                            padding-top: .5rem;
+                            color: $primary-color-dark;
                         }
 
                         li {

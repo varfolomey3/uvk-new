@@ -82,13 +82,26 @@ body {
 }
 
 #accordion .card .card-body .row .services p {
-  padding: 1rem;
+  padding: .3rem 1rem;
+  margin: 0;
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 #accordion .card .card-body .row .services li > img {
-  width: 80px;
+  width: 150px;
+}
+
+#accordion .card .card-body .row .services li.test {
+  padding: 0.52rem 8rem;
+  background: url(../img/cov-nocolor.png) no-repeat;
+}
+
+#accordion .card .card-body .row .services li.test:hover {
+  background: url(../img/cov.png) no-repeat;
+}
+
+#accordion .card .card-body .row .services li.test:focus {
+  background: url(../img/cov.png) no-repeat;
 }
 
 #accordion .card .card-body .row .services img {
@@ -100,7 +113,8 @@ body {
 }
 
 #accordion .card .card-body .row .services ul h5 {
-  padding: 0 0rem;
+  padding-top: .5rem;
+  color: #08478C;
 }
 
 #accordion .card .card-body .row .services ul li {
