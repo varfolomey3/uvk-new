@@ -124,7 +124,7 @@ body {
 
 .block h4 {
   color: #08478C;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   margin: 0;
   font-weight: 700;
 }
@@ -183,8 +183,13 @@ body {
 .block-partners {
   background: #CCDDE8;
   font-weight: 700;
+  padding: 1rem;
   margin: 0;
   color: #08478C;
+}
+
+.block-partners h4 {
+  padding: 0 .5rem;
 }
 
 .block-partners .row {
@@ -204,6 +209,74 @@ body {
 
 .partners img:hover {
   opacity: 1;
+}
+
+.map {
+  background-color: #CCDDE8;
+}
+
+.map h5 {
+  padding: 1rem 0;
+}
+
+.map .row {
+  padding: 0;
+  margin: 0;
+}
+
+.map h5 {
+  color: #08478C;
+}
+
+#map {
+  width: 100%;
+  height: 33rem;
+}
+
+.block-contacts {
+  background: #CCDDE8;
+}
+
+.block-contacts .row {
+  padding: 0;
+  margin: 0;
+}
+
+.requisites {
+  background: #CCDDE8;
+  padding-bottom: 1rem;
+}
+
+.requisites .row {
+  padding: 0;
+  margin: 0;
+}
+
+.requisites h5 {
+  color: #08478C;
+  padding: 1rem;
+}
+
+.requisites .container {
+  background: #B7C8D3;
+  padding: 1rem;
+  border-radius: .75rem;
+}
+
+.requisites .container span {
+  color: #08478C;
+  font-weight: 700;
+}
+
+.requisites a.btn {
+  background: #B7C8D3;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #08478C;
+}
+
+.requisites a.btn:hover {
+  color: #008AC3;
 }
 
 footer {

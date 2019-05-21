@@ -150,7 +150,7 @@ body {
 
     h4 {
         color: $primary-color-dark;
-        padding: 1rem;
+        padding: 1rem 1.5rem;
         margin: 0;
         font-weight: 700;
     }
@@ -199,8 +199,13 @@ body {
 .block-partners {
     background: $body-color;
     font-weight: 700;
+    padding: 1rem;
     margin: 0;
     color: $primary-color-dark;
+
+    h4 {
+        padding: 0 .5rem;
+    }
 
     .row {
         padding: 0;
@@ -221,6 +226,70 @@ body {
         }
     }
 }
+
+// Контакты(страница)
+.map {
+    background-color: $body-color;
+    h5 {
+        padding: 1rem 0;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    h5 {
+        color: $primary-color-dark;
+    }
+}
+
+#map {
+    width: 100%;
+    height: 33rem;
+}
+
+.block-contacts {
+    background: $body-color;
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.requisites {
+    background: $body-color;
+    padding-bottom: 1rem;
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    h5 {
+        color: $primary-color-dark;
+        padding: 1rem;
+    }
+    .container {
+        background: $body-color-dark;
+        padding: 1rem;
+        border-radius: .75rem;
+        span {
+            color: $primary-color-dark;
+            font-weight: 700;
+        }
+    }
+    a.btn {
+        background: $body-color-dark;
+        margin-top: 1rem;
+        padding: 1rem;
+        color: $primary-color-dark;
+    &:hover {
+        color: $primary-color-light;
+    }
+    }
+}
+
 
 // Footer
 footer {
