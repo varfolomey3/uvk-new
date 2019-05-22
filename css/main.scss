@@ -295,8 +295,11 @@ body {
 .licenses {
     background: $body-color;
     h4 {
+        margin: 0rem;
         color: $primary-color-dark;
         padding: 1rem;
+    }
+
     }
     .row {
         padding: 0;
@@ -311,7 +314,6 @@ body {
         }
     }
 
-}
 
 // Футер
 footer {
