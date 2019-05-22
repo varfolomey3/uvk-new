@@ -227,7 +227,7 @@ body {
     }
 }
 
-// Контакты(страница)
+// Контакты(стр)
 .map {
     background-color: $body-color;
     h5 {
@@ -290,8 +290,30 @@ body {
     }
 }
 
+// О компании(стр)
 
-// Footer
+.licenses {
+    background: $body-color;
+    h4 {
+        color: $primary-color-dark;
+        padding: 1rem;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+        .col-12 {
+            padding-bottom: 1.5rem;
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+// Футер
 footer {
     background: $body-color-dark;
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../mg/favico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favico/favicon-16x16.png">
     <link rel="manifest" href="../site.webmanifest">
@@ -13,17 +13,18 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <title>Уральская вагоноремонтная компания</title>
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <title>О компании</title>
 </head>
 
 <body>
-    <div class="container">
+
+    <!-- Навбар -->
+    <div class="container-fluid">
         <nav class="navbar navbar-expand-sm navbar-light">
             <a class="navbar-brand" href="../index.html">
-                <img src="../img/logo.png" height="25x" alt="uvk">
+                <img src="../img/logo.png" height="35" alt="uvk">
             </a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -32,85 +33,109 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">О компании</a>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">О компании</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="repair-vagon.html">Услуги</a>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="#">Услуги</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="contacts.html">Контакты</a>
+                    <li class="nav-item text-uppercase">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
                     </li>
                 </ul>
-                <span class="email"><a href="mailto:info@uvrk.ru" title="Связаться с нами"><i
-                            class="fas fa-envelope"></i></a></span>
-                <span class="number-phone">+7 (3519) 24-86-24</span>
+                <span class="phone-number">+7 (3519) 24-86-24</span>
             </div>
         </nav>
+        <div class="name">
+            <p>Уральская<br>Вагоноремонтная<br>Компания</p>
+        </div>
     </div>
-    <div class="container about">
+    <div class="licenses">
+        <h4>Лицензии:</h4>
         <div class="row">
-            <div class="col-sm-6">
-                <h5>О компании</h5>
-                <p>Акционерное общество «Уральская вагоноремонтная компания» зарегистрировано 18 июля 2006 года.</p>
-                <p>Профессионализм, качество, надежность, - вот те критерии, благодаря которым компания завоевала
-                    доверие и
-                    добрую славу от собственников подвижного состава.</p>
-                <p> Следуя европейским стандартам организации производственного процесса, предприятие стремится
-                    проводить
-                    освоение автоматизации оборудования и внедрять программы, нацеленные на повышение производительности
-                    и
-                    обеспечение комфортных условий труда работников.</p>
-                <p>Главный приоритет для нашей компании - это интересы собственников подвижного состава. Надежность,
-                    индивидуальный подход к каждому клиенту, компетентность персонала - это принципы деятельности АО
-                    «УВК», которые позволяют уверенно работать, решая поставленные задачи и отвечая требованиям самых
-                    взыскательных клиентов.</p>
-                </p>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/1305.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/1305.jpg" alt="licenses-img" />
+                </a>
             </div>
-            <div class="col-sm-6">
-                <img src="../img/about-origin.jpg" alt="«УВК»">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/ac.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/ac.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/akp.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/akp.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/cart.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/cart.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/ubc.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/ubc.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/ws.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/ws.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/harp.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/harp.jpg" alt="licenses-img" />
+                </a>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                <a href="../img/licenses/ovk.jpg" data-fancybox="gallery" data-caption="Caption #1">
+                    <img src="../img/licenses/ovk.jpg" alt="licenses-img" />
+                </a>
             </div>
         </div>
     </div>
+    <!-- Футер -->
     <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="p-2">
-                        АО «Уральская вагоноремонтная компания»<br>
-                        455005 Челябинская область г. Магнитогорск ул. Моховая д. 16<br>
-                        Телефон +7 (3519) 24-86-24<br>
-                        Факс +7 (3519) 24-86-22<br>
-                        Е-mail secretary@uvrk.ru</p>
-                </div>
-                <div class="col-sm-6">
-                    <p class="p-2">
-                        Уральская вагоноремонтная компания состоит в составе
-                        объединения производителей железнодорожной техники
-                        и в составе Globaltrans.
-                    </p>
-                    <div class="row">
-                        <div class="d-flex col-sm-6  justify-content-center">
-                            <a href="http://www.globaltrans.com" target="_blank" alt="глобалтранс"><img
-                                    src="../img/partners/globaltrans.png" alt="глобалтранс"></a>
-                        </div>
-                        <div class="d-flex col-sm-6  justify-content-center">
-                            <a href="http://opzt.ru" target="_blank" alt="опжт"><img class="opzht"
-                                    src="../img/partners/opzt.png" alt="опжт"></a>
-                        </div>
+        <div class="row">
+            <div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
+                <p>АО «Уральская вагоноремонтная компания»<br>
+                    455005 Челябинская область г. Магнитогорск ул. Моховая д. 16<br>
+                    Телефон +7 (3519) 24-86-24<br>
+                    Факс +7 (3519) 24-86-22<br>
+                    Е-mail secretary@uvrk.ru</p>
+            </div>
+            <div class="footer col-12 col-md-6 col-xl-6 col-sm-12">
+                <p>Уральская вагоноремонтная компания состоит в составе объединения производителей железнодорожной
+                    техники и в составе Globaltrans.</p>
+                <div class="row">
+                    <div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6">
+                        <a href="http://www.globaltrans.com" rel="noopener noreferrer" target="_blank"><img
+                                src="../img/partners/globaltrans.png" height="40" alt="globaltrans"></a>
+                    </div>
+                    <div class="img d-flex justify-content-center col-sm-12 col-12 col-xl-6">
+                        <a href="http://www.opzt.ru" rel="noopener noreferrer" target="_blank"><img
+                                src="../img/partners/opzt.png" height="70" alt="opzt"></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/SmoothScroll.js"></script>
     <script>
-        SmoothScroll({
-            keyboardSupport: false
-        })
+        $('[data-fancybox="images"]').fancybox({
+            buttons: [
+                'close'
+            ],
+            thumbs: {
+                autoStart: true
+            }
+        });
     </script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/SmoothScroll.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
