@@ -289,16 +289,16 @@ body {
   padding: 1rem;
 }
 
-.row {
+#show {
   padding: 0;
   margin: 0;
 }
 
-.row .col-12 {
+#show .col-12 {
   padding-bottom: 1.5rem;
 }
 
-.row .col-12 a img {
+#show .col-12 a img {
   width: 100%;
 }
 
