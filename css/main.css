@@ -25,7 +25,7 @@ body {
 }
 
 .container-fluid {
-  background: url(../img/main.jpg);
+  background: url(../img/main/main.jpg);
   padding-bottom: 8.4rem;
 }
 
@@ -277,6 +277,10 @@ body {
 
 .requisites a.btn:hover {
   color: #008AC3;
+}
+
+.info {
+  background: #CCDDE8;
 }
 
 .licenses {
