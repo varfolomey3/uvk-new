@@ -283,6 +283,25 @@ body {
   background: #CCDDE8;
 }
 
+.info .row {
+  padding: 0;
+  margin: 0;
+}
+
+.info .row .col-12 {
+  padding: 1rem;
+}
+
+.info .row .col-12 p {
+  background: #B7C8D3;
+  padding: 1rem;
+  border-radius: .75rem;
+}
+
+.info .row .col-12 img {
+  width: 100%;
+}
+
 .licenses {
   background: #CCDDE8;
 }

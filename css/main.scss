@@ -294,6 +294,21 @@ body {
 
 .info {
     background: $body-color;
+    .row {
+        padding: 0;
+        margin: 0;
+        .col-12 {
+            padding: 1rem;
+            p {
+                background: $body-color-dark;
+                padding: 1rem;
+                border-radius: .75rem;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .licenses {
