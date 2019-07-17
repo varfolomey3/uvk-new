@@ -52,9 +52,9 @@ body {
 }
 
 .container-fluid .name p {
-  padding: 13rem 0 0 3.5rem;
+  padding: 9rem 0 6rem 11.5rem;
   font-size: 2rem;
-  color: #006894;
+  color: #08478C;
 }
 
 #accordion .card {
@@ -217,6 +217,7 @@ body {
 
 .map h5 {
   padding: 1rem 0;
+  color: #08478C;
 }
 
 .map .row {
@@ -224,22 +225,18 @@ body {
   margin: 0;
 }
 
-.map h5 {
-  color: #08478C;
+.map td {
+  vertical-align: middle !important;
+}
+
+.map td span {
+  font-weight: 700;
+  color: #006894;
 }
 
 #map {
   width: 100%;
   height: 33rem;
-}
-
-.block-contacts {
-  background: #CCDDE8;
-}
-
-.block-contacts .row {
-  padding: 0;
-  margin: 0;
 }
 
 .requisites {
@@ -264,7 +261,7 @@ body {
 }
 
 .requisites .container span {
-  color: #08478C;
+  color: #006894;
   font-weight: 700;
 }
 
@@ -310,6 +307,11 @@ body {
   margin: 0rem;
   color: #08478C;
   padding: 1rem;
+}
+
+.licenses h4:hover {
+  color: #006894;
+  cursor: pointer;
 }
 
 #show {

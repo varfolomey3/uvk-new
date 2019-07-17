@@ -67,9 +67,9 @@ body {
 
     .name {
         p {
-            padding: 13rem 0 0 3.5rem;
+            padding: 9rem 0 6rem 11.5rem;
             font-size: 2rem;
-            color: $primary-color;
+            color: $primary-color-dark;
         }
     }
 }
@@ -230,31 +230,30 @@ body {
 // Контакты(стр)
 .map {
     background-color: $body-color;
+
     h5 {
         padding: 1rem 0;
+        color: $primary-color-dark;
     }
+
     .row {
         padding: 0;
         margin: 0;
     }
 
-    h5 {
-        color: $primary-color-dark;
+    td {
+        vertical-align: middle !important;
+        span {
+            font-weight: 700;
+            color: $primary-color;
+        }
     }
 }
+
 
 #map {
     width: 100%;
     height: 33rem;
-}
-
-.block-contacts {
-    background: $body-color;
-
-    .row {
-        padding: 0;
-        margin: 0;
-    }
 }
 
 .requisites {
@@ -270,23 +269,27 @@ body {
         color: $primary-color-dark;
         padding: 1rem;
     }
+
     .container {
         background: $body-color-dark;
         padding: 1rem;
         border-radius: .75rem;
+
         span {
-            color: $primary-color-dark;
+            color: $primary-color;
             font-weight: 700;
         }
     }
+
     a.btn {
         background: $body-color-dark;
         margin-top: 1rem;
         padding: 1rem;
         color: $primary-color-dark;
-    &:hover {
-        color: $primary-color-light;
-    }
+
+        &:hover {
+            color: $primary-color-light;
+        }
     }
 }
 
@@ -294,16 +297,20 @@ body {
 
 .info {
     background: $body-color;
+
     .row {
         padding: 0;
         margin: 0;
+
         .col-12 {
             padding: 1rem;
+
             p {
                 background: $body-color-dark;
                 padding: 1rem;
                 border-radius: .75rem;
             }
+
             img {
                 width: 100%;
             }
@@ -313,26 +320,34 @@ body {
 
 .licenses {
     background: $body-color;
+
     h4 {
         margin: 0rem;
         color: $primary-color-dark;
         padding: 1rem;
+
+        &:hover {
+            color: $primary-color;
+            cursor: pointer;
+        }
     }
 
-    }
-    #show {
-        padding: 0;
-        margin: 0;
-        .col-12 {
-            padding-bottom: 1.5rem;
-            
-            a {
-                img {
-                    width: 100%;
-                }
+}
+
+#show {
+    padding: 0;
+    margin: 0;
+
+    .col-12 {
+        padding-bottom: 1.5rem;
+
+        a {
+            img {
+                width: 100%;
             }
         }
     }
+}
 
 
 // Футер
