@@ -24,37 +24,30 @@ body {
   background: #CCDDE8;
 }
 
-.container-fluid {
-  background: url(../img/main/main.jpg);
-  padding-bottom: 8.4rem;
+.navbar {
+  background: #B7C8D3;
 }
 
-.container-fluid .navbar .nav-item > .nav-link {
+.navbar .nav-item > .nav-link {
   color: #006894;
 }
 
-.container-fluid .navbar .nav-item > .nav-link:hover {
+.navbar .nav-item > .nav-link:hover {
   color: #008AC3;
 }
 
-.container-fluid .navbar .dropdown-menu {
+.navbar .dropdown-menu {
   background: #CCDDE8;
   margin-top: .8rem;
 }
 
-.container-fluid .navbar .dropdown-menu .dropdown-item:hover {
+.navbar .dropdown-menu .dropdown-item:hover {
   background: #EDECE8;
 }
 
-.container-fluid .navbar .phone-number {
+.navbar .phone-number {
   color: #08478C;
   font-weight: 700;
-}
-
-.container-fluid .name p {
-  padding: 9rem 0 6rem 11.5rem;
-  font-size: 2rem;
-  color: #08478C;
 }
 
 #accordion .card {
