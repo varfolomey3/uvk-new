@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700|Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet');
 p,
 span,
 li,
@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 div {
-  font-family: 'Comfortaa';
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 html {
@@ -24,28 +25,21 @@ body {
   background: #CCDDE8;
 }
 
-.navbar {
+nav.navbar {
   background: #B7C8D3;
 }
 
-.navbar .nav-item > .nav-link {
+nav.navbar .nav-item > .nav-link {
+  color: #08478C;
+  font-weight: 700;
+  font-size: 1.03rem;
+}
+
+nav.navbar .nav-item > .nav-link:hover {
   color: #006894;
 }
 
-.navbar .nav-item > .nav-link:hover {
-  color: #008AC3;
-}
-
-.navbar .dropdown-menu {
-  background: #CCDDE8;
-  margin-top: .8rem;
-}
-
-.navbar .dropdown-menu .dropdown-item:hover {
-  background: #EDECE8;
-}
-
-.navbar .phone-number {
+nav.navbar .phone-number {
   color: #08478C;
   font-weight: 700;
 }
@@ -60,7 +54,7 @@ body {
 
 #accordion .card .card-header .card-link {
   color: #08478C;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -81,6 +75,7 @@ body {
 #accordion .card .card-body .row .services p {
   padding: .4rem 1rem;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #accordion .card .card-body .row .services img {

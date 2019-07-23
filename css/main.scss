@@ -7,7 +7,7 @@ $primary-color-dark :#08478C;
 $text-color: #000000e6;
 $second-text-color: #00000080;
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700|Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet');
 
 p,
 span,
@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 div {
-    font-family: 'Comfortaa';
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 html {
@@ -37,25 +38,16 @@ body {
 
 
 // Навбар
-.navbar {
+nav.navbar {
     background: $body-color-dark;
 
     .nav-item>.nav-link {
-        color: $primary-color;
+        color: $primary-color-dark;
+        font-weight: 700;
+        font-size: 1.03rem;
 
         &:hover {
-            color: $primary-color-light;
-        }
-    }
-
-    .dropdown-menu {
-        background: $body-color;
-        margin-top: .8rem;
-
-        .dropdown-item {
-            &:hover {
-                background: $body-color-light;
-            }
+            color: $primary-color;
         }
     }
 
@@ -75,7 +67,7 @@ body {
 
             .card-link {
                 color: $primary-color-dark;
-                font-size: 1.1rem;
+                font-size: 1.25rem;
                 font-weight: 700;
             }
         }
@@ -97,6 +89,7 @@ body {
                     p {
                         padding: .4rem 1rem;
                         margin: 0;
+                        font-family: 'Open Sans', sans-serif;
                     }
 
                     img {
