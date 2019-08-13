@@ -9,7 +9,7 @@ h3,
 h4,
 div {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 html {
@@ -31,12 +31,13 @@ nav.navbar {
 
 nav.navbar .nav-item > .nav-link {
   color: #08478C;
-  font-weight: 700;
-  font-size: 1.03rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.05rem;
 }
 
 nav.navbar .nav-item > .nav-link:hover {
-  color: #006894;
+  color: #008AC3;
 }
 
 nav.navbar .phone-number {
@@ -56,6 +57,12 @@ nav.navbar .phone-number {
   color: #08478C;
   font-size: 1.25rem;
   font-weight: 700;
+  border-bottom: 2px dotted #08478C;
+}
+
+#accordion .card .card-header .card-link:hover {
+  color: #008AC3;
+  border-bottom: 2px dotted #008AC3;
 }
 
 #accordion .card .card-body {
@@ -73,9 +80,10 @@ nav.navbar .phone-number {
 }
 
 #accordion .card .card-body .row .services p {
-  padding: .4rem 1rem;
+  padding: .5rem 1rem;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
 }
 
 #accordion .card .card-body .row .services img {
@@ -136,6 +144,7 @@ nav.navbar .phone-number {
 .block .row .col-xl-4 .news-block h5 {
   color: #08478C;
   padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .block .row .col-12 .news-block img,
@@ -150,6 +159,7 @@ nav.navbar .phone-number {
 .block .row .col-md-12 .news-block a,
 .block .row .col-xl-4 .news-block a {
   color: #000000e6;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .block .row .col-12 .news-block a:hover,
@@ -166,6 +176,8 @@ nav.navbar .phone-number {
 .block .row .col-xl-4 .news-block a p {
   padding: 0.3rem;
   margin-bottom: 0;
+  font-size: 1.05rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .block-partners {

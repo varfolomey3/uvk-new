@@ -19,7 +19,7 @@ h3,
 h4,
 div {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 html {
@@ -43,11 +43,12 @@ nav.navbar {
 
     .nav-item>.nav-link {
         color: $primary-color-dark;
-        font-weight: 700;
-        font-size: 1.03rem;
+        font-weight: 600;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.05rem;
 
         &:hover {
-            color: $primary-color;
+            color: $primary-color-light;
         }
     }
 
@@ -69,6 +70,12 @@ nav.navbar {
                 color: $primary-color-dark;
                 font-size: 1.25rem;
                 font-weight: 700;
+                border-bottom: 2px dotted $primary-color-dark;
+
+                &:hover {
+                    color: $primary-color-light;
+                    border-bottom: 2px dotted $primary-color-light;
+                }
             }
         }
 
@@ -87,9 +94,10 @@ nav.navbar {
                     border-radius: .75rem;
 
                     p {
-                        padding: .4rem 1rem;
+                        padding: .5rem 1rem;
                         margin: 0;
                         font-family: 'Open Sans', sans-serif;
+                        font-size: 1.2rem;
                     }
 
                     img {
@@ -144,7 +152,7 @@ nav.navbar {
 
         .col-12,
         .col-sm-12,
-        .col-md-12,
+        .col-md-12, 
         .col-xl-4 {
 
             .news-block {
@@ -152,9 +160,11 @@ nav.navbar {
                 border-radius: .8rem;
                 padding: 1rem;
 
+
                 h5 {
                     color: $primary-color-dark;
                     padding: 1rem;
+                    font-family: 'Open Sans', sans-serif;
                 }
 
                 img {
@@ -163,6 +173,7 @@ nav.navbar {
 
                 a {
                     color: $text-color;
+                    font-family: 'Open Sans', sans-serif;
 
                     &:hover {
                         text-decoration: none;
@@ -172,6 +183,8 @@ nav.navbar {
                     p {
                         padding: 0.3rem;
                         margin-bottom: 0;
+                        font-size: 1.05rem;
+                        font-family: 'Open Sans', sans-serif;
                     }
                 }
             }
